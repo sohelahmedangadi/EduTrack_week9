@@ -1,0 +1,6 @@
+Flag rule: risk probability >= 0.4 (High tier >= 0.6)
+Students flagged: 148 of 500 (29.6%)
+Tiers: Low 352, High 93, Medium 55
+Cross-validated accuracy vs proxy label: 81.8%
+Precision 66.9%, recall 70.2%, F1 68.5%
+Proxy label = completed fewer than half of enrolled courses (no manual at-risk list available).

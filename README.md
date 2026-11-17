@@ -15,7 +15,8 @@ These came out of the Week 1 data inventory and still apply:
 ```
 data/raw/          original CSV files (never edited)
 data/processed/    cleaned and joined tables created by the pipeline
-src/               the three pipeline scripts
+src/               the pipeline scripts (steps 1 to 7)
+app/               Streamlit dashboard (dashboard.py) and its requirements
 outputs/           Week 3 baseline tables; outputs/week6/ holds Week 6 tables and figures
 logs/              cleaning and join logs from the last run
 notebooks/         space for exploration notebooks
@@ -33,7 +34,7 @@ python src/02_build_student_table.py
 python src/03_baseline_metrics.py
 ```
 
-Or run all six steps at once with `./run_all.sh`. Run every command from the project root folder.
+Or run all seven steps at once with `./run_all.sh`. Run every command from the project root folder.
 
 ## What each step does
 
@@ -45,6 +46,7 @@ Or run all six steps at once with `./run_all.sh`. Run every command from the pro
 | 4 | `src/04_train_at_risk_model.py` | Week 6: trains and validates the at-risk classifier (80/20 split plus repeated cross-validation). |
 | 5 | `src/05_segmentation_and_cohorts.py` | Week 6: K-Means student segments, cohort heatmap, drop-off curve, monthly trend. |
 | 6 | `src/06_statistical_tests.py` | Week 6: ANOVA, Kruskal-Wallis, chi-square, correlations and high vs low engagement tests. |
+| 7 | `src/07_score_students.py` | Week 9: scores every student (out-of-fold risk probability, tier, top drivers, recommended intervention) for the dashboard. |
 
 ### Join logic
 
@@ -139,3 +141,44 @@ Top drivers: average hours per course (strongest), courses per student, longest 
 - Courses that are not completed go quiet at a median of day 22; about two thirds stop within 30 days.
 - Courses differ strongly in completion, hours and quiz score (all p < 0.001). Cities (school stand-in) show no reliable differences. Hours per course vs quiz score: Spearman rho = 0.15 (p < 0.001).
 - Grade cannot be tested: there is no grade column.
+
+## Week 9: Dashboard v1
+
+**Live dashboard:** _paste your Streamlit URL here after deploying_
+
+### Run it locally
+
+```bash
+pip install -r requirements.txt
+./run_all.sh                          # builds the data tables (once)
+streamlit run app/dashboard.py        # opens http://localhost:8501
+```
+
+### Deploy it (Streamlit Community Cloud, free)
+
+1. Push this repository to GitHub.
+2. Go to https://share.streamlit.io, sign in with GitHub and click **Create app**.
+3. Pick this repository, branch `main`, and set **Main file path** to `app/dashboard.py`.
+4. Click **Deploy**. Streamlit installs `app/requirements.txt` automatically. Paste the app URL above.
+
+### What is in v1
+
+- **5 KPI cards:** students, average quiz score, completion rate, average hours per student (engagement), at-risk students (%). With a school selected, each card shows the difference from the whole network for the same subject.
+- **Global filters (sidebar, apply to every tab):** School, Grade, Subject.
+- **Overview:** performance by subject, risk tier counts, completion trend by enrollment month.
+- **School comparison:** ranked bar chart (choose the measure) and a scorecard table.
+- **At-risk watchlist:** filterable table with risk %, tier badge, top drivers, recommended intervention, review-by timing, CSV download.
+- **Term-end report:** button that builds a PDF (fpdf2) for the selected school and subject.
+
+### Data limits that affect the dashboard
+
+- No `school_id` in the data, so **city is used as the school stand-in** (10 cities, not 15 schools).
+- No grade column, so the **Grade filter is switched off** and labelled "Not available in data".
+- No subject column, so **course ID is used as the subject stand-in**.
+- With a school and a subject both selected, groups are small (median 13 students), so averages can swing a lot. The app shows a warning below 20 students.
+
+### Risk flag
+
+Risk probability comes from the Week 6 logistic regression, scored out-of-fold (each student is scored by a model that did not train on them). A student is **flagged at 0.40 or more** (High tier at 0.60 or more). Against the proxy label (completed fewer than half of enrolled courses): accuracy 81.8%, precision 66.9%, recall 70.2% (see `outputs/week9/flag_validation.txt`). There is no manual at-risk list yet, so this is not yet checked against teachers' judgement.
+
+Screenshots and sample PDF reports are in `outputs/week9/`.
