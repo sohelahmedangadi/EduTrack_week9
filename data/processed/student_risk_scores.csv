@@ -1,0 +1,501 @@
+student_id,city,profile,segment,risk_probability,risk_tier,flagged,top_risk_drivers,recommended_intervention,review_by,n_interactions,courses_completed,total_hours,avg_hours_per_course,avg_quiz_score,avg_completion_pct,at_risk_label
+STU-0001,Kolkata,Analytics Track,High Achievers,0.002,Low,0,None (low risk),No action needed,-,3,3,98.9,32.97,76.0,100.0,0
+STU-0002,Mumbai,Career Switcher,High Achievers,0.036,Low,0,None (low risk),No action needed,-,4,3,104.8,26.2,73.75,86.5,0
+STU-0003,Mumbai,Data Analyst Track,At-Risk Struggling,0.971,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,0,24.6,8.2,28.5,47.67,1
+STU-0004,Kolkata,Full Stack + ML,Steady / Average,0.158,Low,0,None (low risk),No action needed,-,4,3,87.3,21.82,62.33,80.5,0
+STU-0005,Ahmedabad,Career Switcher,Steady / Average,0.276,Low,0,None (low risk),No action needed,-,5,3,112.5,22.5,52.6,83.4,0
+STU-0006,Jaipur,Analytics Track,High Achievers,0.116,Low,0,None (low risk),No action needed,-,4,3,74.3,18.58,74.25,96.25,0
+STU-0007,Kolkata,Full Stack + ML,High Achievers,0.014,Low,0,None (low risk),No action needed,-,2,2,60.5,30.25,61.5,100.0,0
+STU-0008,Ahmedabad,Data Analyst Track,Disengaged High-Scorers,0.351,Low,0,None (low risk),No action needed,-,3,2,54.0,18.0,63.0,74.33,0
+STU-0009,Delhi,Career Switcher,High Achievers,0.048,Low,0,None (low risk),No action needed,-,3,3,67.9,22.63,67.33,100.0,0
+STU-0010,Hyderabad,Career Switcher,High Achievers,0.092,Low,0,None (low risk),No action needed,-,2,2,39.4,19.7,63.5,100.0,0
+STU-0011,Kolkata,Full Stack + ML,High Achievers,0.165,Low,0,None (low risk),No action needed,-,2,1,46.1,23.05,60.5,81.5,0
+STU-0012,Kochi,Full Stack + ML,Steady / Average,0.059,Low,0,None (low risk),No action needed,-,6,4,139.1,23.18,74.2,76.17,0
+STU-0013,Chennai,Analytics Track,High Achievers,0.227,Low,0,None (low risk),No action needed,-,4,2,110.7,27.68,53.0,73.75,0
+STU-0014,Hyderabad,Career Switcher,At-Risk Struggling,0.37,Low,0,None (low risk),No action needed,-,4,1,75.6,18.9,56.5,71.25,1
+STU-0015,Chennai,Career Switcher,High Achievers,0.006,Low,0,None (low risk),No action needed,-,5,4,147.9,29.58,60.2,96.2,0
+STU-0016,Delhi,AI/ML Enthusiast,Steady / Average,0.306,Low,0,None (low risk),No action needed,-,6,3,118.3,19.72,59.83,76.5,0
+STU-0017,Mumbai,Data Analyst Track,Steady / Average,0.159,Low,0,None (low risk),No action needed,-,6,4,113.1,18.85,72.17,86.17,0
+STU-0018,Mumbai,Career Switcher,Disengaged High-Scorers,0.051,Low,0,None (low risk),No action needed,-,3,1,67.2,22.4,78.0,63.67,1
+STU-0019,Bengaluru,Data Analyst Track,At-Risk Struggling,0.357,Low,0,None (low risk),No action needed,-,2,1,30.3,15.15,52.5,74.5,0
+STU-0020,Mumbai,AI/ML Enthusiast,At-Risk Struggling,0.966,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,5,1,51.8,10.36,43.25,56.6,1
+STU-0021,Hyderabad,Analytics Track,Steady / Average,0.176,Low,0,None (low risk),No action needed,-,5,3,87.2,17.44,70.4,88.0,0
+STU-0022,Mumbai,AI/ML Enthusiast,High Achievers,0.19,Low,0,None (low risk),No action needed,-,3,2,59.7,19.9,62.67,91.67,0
+STU-0023,Bengaluru,Career Switcher,At-Risk Struggling,0.679,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,56.5,18.83,46.5,58.0,1
+STU-0024,Mumbai,Full Stack + ML,High Achievers,0.004,Low,0,None (low risk),No action needed,-,4,4,113.3,28.32,76.0,100.0,0
+STU-0025,Chennai,Analytics Track,Steady / Average,0.192,Low,0,None (low risk),No action needed,-,6,4,95.2,15.87,75.17,77.83,0
+STU-0026,Ahmedabad,Data Analyst Track,High Achievers,0.021,Low,0,None (low risk),No action needed,-,3,3,68.0,22.67,78.33,100.0,0
+STU-0027,Kolkata,Career Switcher,Disengaged High-Scorers,0.506,Medium,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 month,2,1,27.1,13.55,75.0,55.0,0
+STU-0028,Ahmedabad,Full Stack + ML,Disengaged High-Scorers,0.264,Low,0,None (low risk),No action needed,-,3,2,41.8,13.93,78.67,80.0,0
+STU-0029,Jaipur,Data Analyst Track,Disengaged High-Scorers,0.515,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,2,70.5,14.1,64.0,59.2,1
+STU-0030,Kolkata,Career Switcher,Steady / Average,0.508,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,89.8,14.97,56.25,68.67,1
+STU-0031,Hyderabad,AI/ML Enthusiast,Steady / Average,0.355,Low,0,None (low risk),No action needed,-,5,4,82.1,16.42,72.25,83.4,0
+STU-0032,Mumbai,Full Stack + ML,Disengaged High-Scorers,0.077,Low,0,None (low risk),No action needed,-,4,2,73.5,18.38,70.25,82.0,0
+STU-0033,Mumbai,Analytics Track,Disengaged High-Scorers,0.094,Low,0,None (low risk),No action needed,-,3,2,71.3,23.77,73.5,71.0,0
+STU-0034,Delhi,Career Switcher,Steady / Average,0.113,Low,0,None (low risk),No action needed,-,6,5,130.2,21.7,61.5,98.17,0
+STU-0035,Pune,Data Analyst Track,Steady / Average,0.024,Low,0,None (low risk),No action needed,-,6,4,134.0,22.33,74.33,88.0,0
+STU-0036,Mumbai,Full Stack + ML,Disengaged High-Scorers,0.389,Low,0,None (low risk),No action needed,-,5,1,74.8,14.96,64.25,61.2,1
+STU-0037,Pune,Career Switcher,Steady / Average,0.085,Low,0,None (low risk),No action needed,-,6,5,132.8,22.13,64.5,91.83,0
+STU-0038,Bengaluru,Career Switcher,Steady / Average,0.206,Low,0,None (low risk),No action needed,-,5,3,99.9,19.98,64.0,87.4,0
+STU-0039,Kolkata,Data Analyst Track,At-Risk Struggling,0.932,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,77.8,12.97,56.75,52.0,1
+STU-0040,Kolkata,Full Stack + ML,Steady / Average,0.084,Low,0,None (low risk),No action needed,-,6,2,156.0,26.0,52.0,76.67,1
+STU-0041,Delhi,Analytics Track,Steady / Average,0.645,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,3,95.7,15.95,71.2,68.0,0
+STU-0042,Bengaluru,Data Analyst Track,At-Risk Struggling,0.518,Medium,1,"Low quiz scores, Low study hours",Tutoring or revision support,Within 1 month,3,1,55.3,18.43,40.33,73.67,1
+STU-0043,Ahmedabad,Analytics Track,High Achievers,0.042,Low,0,None (low risk),No action needed,-,4,3,101.4,25.35,67.75,86.25,0
+STU-0044,Chennai,Full Stack + ML,Steady / Average,0.158,Low,0,None (low risk),No action needed,-,6,3,142.1,23.68,57.5,72.83,0
+STU-0045,Delhi,AI/ML Enthusiast,Steady / Average,0.124,Low,0,None (low risk),No action needed,-,5,2,117.8,23.56,59.0,69.0,1
+STU-0046,Kolkata,Data Analyst Track,Steady / Average,0.868,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,97.6,16.27,48.8,68.83,1
+STU-0047,Hyderabad,Analytics Track,Disengaged High-Scorers,0.046,Low,0,None (low risk),No action needed,-,4,3,85.6,21.4,83.67,82.0,0
+STU-0048,Pune,Analytics Track,High Achievers,0.001,Low,0,None (low risk),No action needed,-,3,2,112.0,37.33,72.67,94.33,0
+STU-0049,Pune,Career Switcher,High Achievers,0.088,Low,0,None (low risk),No action needed,-,4,2,96.7,24.18,60.25,82.25,0
+STU-0050,Kochi,Analytics Track,High Achievers,0.01,Low,0,None (low risk),No action needed,-,2,2,50.8,25.4,80.0,100.0,0
+STU-0051,Kolkata,Full Stack + ML,Disengaged High-Scorers,0.386,Low,0,None (low risk),No action needed,-,4,3,61.6,15.4,62.0,76.5,0
+STU-0052,Jaipur,Analytics Track,Steady / Average,0.159,Low,0,None (low risk),No action needed,-,5,4,98.7,19.74,60.6,86.4,0
+STU-0053,Kolkata,Full Stack + ML,Steady / Average,0.212,Low,0,None (low risk),No action needed,-,5,2,84.1,16.82,67.0,81.0,1
+STU-0054,Kolkata,Data Analyst Track,High Achievers,0.01,Low,0,None (low risk),No action needed,-,5,5,151.8,30.36,62.4,100.0,0
+STU-0055,Delhi,Data Analyst Track,At-Risk Struggling,0.713,High,1,Low study hours,Teacher check-in; agree weekly study goals,Within 1 week,4,1,54.3,13.58,59.33,59.75,1
+STU-0056,Pune,Full Stack + ML,Disengaged High-Scorers,0.131,Low,0,None (low risk),No action needed,-,3,1,53.5,17.83,72.5,69.67,1
+STU-0057,Pune,Data Analyst Track,At-Risk Struggling,0.232,Low,0,None (low risk),No action needed,-,3,2,67.2,22.4,51.5,73.67,0
+STU-0058,Kolkata,Data Analyst Track,High Achievers,0.044,Low,0,None (low risk),No action needed,-,3,2,78.0,26.0,59.67,93.67,0
+STU-0059,Bengaluru,Analytics Track,Disengaged High-Scorers,0.429,Medium,1,Low study hours,Teacher check-in; agree weekly study goals,Within 1 month,3,1,46.2,15.4,66.0,55.33,1
+STU-0060,Kochi,Career Switcher,High Achievers,0.193,Low,0,None (low risk),No action needed,-,2,2,39.9,19.95,57.5,100.0,0
+STU-0061,Kochi,AI/ML Enthusiast,Disengaged High-Scorers,0.022,Low,0,None (low risk),No action needed,-,2,1,41.2,20.6,81.0,62.0,0
+STU-0062,Kochi,Data Analyst Track,At-Risk Struggling,0.764,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,33.7,16.85,35.0,74.0,1
+STU-0063,Pune,Data Analyst Track,At-Risk Struggling,0.104,Low,0,None (low risk),No action needed,-,3,1,62.6,20.87,52.33,72.0,1
+STU-0064,Kochi,Analytics Track,High Achievers,0.233,Low,0,None (low risk),No action needed,-,4,3,83.1,20.78,63.25,95.25,0
+STU-0065,Bengaluru,Data Analyst Track,High Achievers,0.021,Low,0,None (low risk),No action needed,-,3,3,65.7,21.9,77.67,100.0,0
+STU-0066,Hyderabad,Full Stack + ML,High Achievers,0.252,Low,0,None (low risk),No action needed,-,3,2,48.4,16.13,70.0,94.67,0
+STU-0067,Kolkata,AI/ML Enthusiast,At-Risk Struggling,0.885,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,28.4,9.47,48.33,73.33,1
+STU-0068,Kochi,Full Stack + ML,Steady / Average,0.669,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,5,3,88.3,17.66,46.0,81.6,0
+STU-0069,Hyderabad,Data Analyst Track,At-Risk Struggling,0.926,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,1,44.5,11.12,47.33,53.0,1
+STU-0070,Mumbai,Analytics Track,High Achievers,0.003,Low,0,None (low risk),No action needed,-,5,5,164.7,32.94,73.8,100.0,0
+STU-0071,Delhi,Analytics Track,High Achievers,0.05,Low,0,None (low risk),No action needed,-,2,1,37.4,18.7,71.0,90.0,0
+STU-0072,Ahmedabad,Data Analyst Track,High Achievers,0.554,Medium,1,Low study hours,Teacher check-in; agree weekly study goals,Within 1 month,3,2,40.6,13.53,66.33,96.33,0
+STU-0073,Kochi,Analytics Track,Disengaged High-Scorers,0.055,Low,0,None (low risk),No action needed,-,3,2,68.6,22.87,78.0,71.33,0
+STU-0074,Pune,Full Stack + ML,At-Risk Struggling,0.4,Low,0,None (low risk),No action needed,-,4,2,71.1,17.77,57.33,66.5,0
+STU-0075,Ahmedabad,Full Stack + ML,Steady / Average,0.31,Low,0,None (low risk),No action needed,-,5,3,97.6,19.52,59.2,83.4,0
+STU-0076,Ahmedabad,Data Analyst Track,High Achievers,0.026,Low,0,None (low risk),No action needed,-,5,5,141.9,28.38,78.4,100.0,0
+STU-0077,Hyderabad,Data Analyst Track,High Achievers,0.002,Low,0,None (low risk),No action needed,-,2,2,66.2,33.1,71.0,100.0,0
+STU-0078,Kochi,Analytics Track,Steady / Average,0.118,Low,0,None (low risk),No action needed,-,6,5,123.9,20.65,66.4,87.67,0
+STU-0079,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.415,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,3,1,46.9,15.63,51.0,59.33,1
+STU-0080,Delhi,AI/ML Enthusiast,Disengaged High-Scorers,0.498,Medium,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 month,4,1,52.9,13.22,90.0,34.25,1
+STU-0081,Kochi,Career Switcher,Steady / Average,0.124,Low,0,None (low risk),No action needed,-,6,3,120.7,20.12,63.0,67.67,0
+STU-0082,Jaipur,AI/ML Enthusiast,Steady / Average,0.513,Medium,1,"High course load, Uneven effort across courses",Review workload before new enrolments,Within 1 month,6,2,119.7,19.95,58.17,58.67,1
+STU-0083,Pune,Analytics Track,Steady / Average,0.006,Low,0,None (low risk),No action needed,-,5,4,143.0,28.6,77.25,82.0,0
+STU-0084,Jaipur,Data Analyst Track,High Achievers,0.008,Low,0,None (low risk),No action needed,-,2,2,54.3,27.15,68.0,100.0,0
+STU-0085,Bengaluru,Analytics Track,At-Risk Struggling,0.786,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,2,58.0,14.5,45.5,58.75,0
+STU-0086,Kochi,Full Stack + ML,Steady / Average,0.043,Low,0,None (low risk),No action needed,-,6,4,179.2,29.87,57.0,82.67,0
+STU-0087,Pune,Career Switcher,Disengaged High-Scorers,0.325,Low,0,None (low risk),No action needed,-,6,3,116.8,19.47,75.25,58.83,0
+STU-0088,Bengaluru,Analytics Track,Steady / Average,0.072,Low,0,None (low risk),No action needed,-,6,5,131.9,21.98,68.33,91.83,0
+STU-0089,Chennai,Data Analyst Track,Disengaged High-Scorers,0.671,High,1,Low study hours,Teacher check-in; agree weekly study goals,Within 1 week,4,2,48.4,12.1,65.25,71.25,0
+STU-0090,Mumbai,Analytics Track,High Achievers,0.025,Low,0,None (low risk),No action needed,-,4,2,112.7,28.18,57.67,77.0,0
+STU-0091,Delhi,Full Stack + ML,At-Risk Struggling,0.844,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,22.2,11.1,41.0,34.0,1
+STU-0092,Chennai,Career Switcher,High Achievers,0.067,Low,0,None (low risk),No action needed,-,3,2,74.8,24.93,55.67,90.67,0
+STU-0093,Kochi,Full Stack + ML,At-Risk Struggling,0.399,Low,0,None (low risk),No action needed,-,3,2,46.8,15.6,56.0,72.33,0
+STU-0094,Mumbai,AI/ML Enthusiast,High Achievers,0.043,Low,0,None (low risk),No action needed,-,2,2,48.2,24.1,61.5,100.0,0
+STU-0095,Kochi,Data Analyst Track,At-Risk Struggling,0.938,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,22.3,11.15,40.5,64.5,1
+STU-0096,Kochi,AI/ML Enthusiast,Disengaged High-Scorers,0.335,Low,0,None (low risk),No action needed,-,4,2,69.2,17.3,63.33,64.75,0
+STU-0097,Delhi,Data Analyst Track,Steady / Average,0.01,Low,0,None (low risk),No action needed,-,6,4,158.4,26.4,81.33,83.33,0
+STU-0098,Jaipur,Career Switcher,At-Risk Struggling,0.515,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,4,1,65.5,16.38,52.5,79.75,1
+STU-0099,Bengaluru,Full Stack + ML,Disengaged High-Scorers,0.537,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,2,73.7,14.74,69.33,59.6,1
+STU-0100,Chennai,Analytics Track,Steady / Average,0.01,Low,0,None (low risk),No action needed,-,6,6,183.7,30.62,59.0,100.0,0
+STU-0101,Hyderabad,Data Analyst Track,High Achievers,0.038,Low,0,None (low risk),No action needed,-,3,2,87.2,29.07,53.67,79.33,0
+STU-0102,Kochi,Analytics Track,Steady / Average,0.477,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,4,86.9,14.48,66.2,78.33,0
+STU-0103,Kolkata,Data Analyst Track,At-Risk Struggling,0.932,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,29.5,9.83,41.0,48.33,1
+STU-0104,Jaipur,Data Analyst Track,At-Risk Struggling,0.342,Low,0,None (low risk),No action needed,-,2,1,39.6,19.8,50.0,62.5,0
+STU-0105,Hyderabad,Career Switcher,At-Risk Struggling,0.462,Medium,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 month,3,1,44.0,14.67,54.67,78.33,1
+STU-0106,Ahmedabad,Data Analyst Track,Steady / Average,0.266,Low,0,None (low risk),No action needed,-,5,2,90.1,18.02,64.2,75.2,1
+STU-0107,Delhi,Full Stack + ML,At-Risk Struggling,0.27,Low,0,None (low risk),No action needed,-,4,2,85.0,21.25,52.5,59.75,0
+STU-0108,Kolkata,Career Switcher,Steady / Average,0.097,Low,0,None (low risk),No action needed,-,6,2,120.5,20.08,67.2,70.33,1
+STU-0109,Mumbai,Full Stack + ML,Steady / Average,0.162,Low,0,None (low risk),No action needed,-,6,4,146.3,24.38,61.67,84.83,0
+STU-0110,Pune,AI/ML Enthusiast,High Achievers,0.095,Low,0,None (low risk),No action needed,-,2,1,64.2,32.1,45.5,72.0,0
+STU-0111,Hyderabad,Full Stack + ML,High Achievers,0.038,Low,0,None (low risk),No action needed,-,5,5,136.9,27.38,63.4,100.0,0
+STU-0112,Hyderabad,Analytics Track,Steady / Average,0.503,Medium,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 month,5,2,85.5,17.1,52.8,74.6,1
+STU-0113,Mumbai,Full Stack + ML,High Achievers,0.081,Low,0,None (low risk),No action needed,-,4,3,107.3,26.83,57.67,79.5,0
+STU-0114,Delhi,Full Stack + ML,At-Risk Struggling,0.992,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,16.2,8.1,25.0,37.0,1
+STU-0115,Pune,Analytics Track,High Achievers,0.15,Low,0,None (low risk),No action needed,-,2,2,34.4,17.2,65.5,100.0,0
+STU-0116,Mumbai,Career Switcher,Steady / Average,0.219,Low,0,None (low risk),No action needed,-,5,3,97.7,19.54,59.8,83.4,0
+STU-0117,Kolkata,Full Stack + ML,High Achievers,0.003,Low,0,None (low risk),No action needed,-,2,2,74.3,37.15,55.5,100.0,0
+STU-0118,Chennai,Career Switcher,At-Risk Struggling,0.891,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,0,71.6,11.93,53.6,50.5,1
+STU-0119,Kolkata,Career Switcher,High Achievers,0.155,Low,0,None (low risk),No action needed,-,2,1,38.5,19.25,66.0,90.0,0
+STU-0120,Chennai,Data Analyst Track,High Achievers,0.002,Low,0,None (low risk),No action needed,-,2,1,68.8,34.4,67.5,73.5,0
+STU-0121,Jaipur,Data Analyst Track,Disengaged High-Scorers,0.676,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,2,65.6,13.12,67.0,55.2,1
+STU-0122,Bengaluru,Analytics Track,Steady / Average,0.364,Low,0,None (low risk),No action needed,-,6,2,107.3,17.88,59.8,70.17,1
+STU-0123,Mumbai,Data Analyst Track,At-Risk Struggling,0.654,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,39.0,13.0,54.67,60.0,1
+STU-0124,Bengaluru,Full Stack + ML,Steady / Average,0.563,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,3,83.5,16.7,60.8,83.8,0
+STU-0125,Jaipur,Data Analyst Track,Steady / Average,0.583,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,100.4,16.73,59.33,73.5,1
+STU-0126,Bengaluru,Data Analyst Track,Steady / Average,0.087,Low,0,None (low risk),No action needed,-,6,4,135.6,22.6,70.4,82.0,0
+STU-0127,Kolkata,Career Switcher,High Achievers,0.062,Low,0,None (low risk),No action needed,-,4,3,103.1,25.78,63.0,84.0,0
+STU-0128,Mumbai,AI/ML Enthusiast,High Achievers,0.076,Low,0,None (low risk),No action needed,-,4,2,112.9,28.22,62.25,75.75,0
+STU-0129,Kolkata,Full Stack + ML,Steady / Average,0.075,Low,0,None (low risk),No action needed,-,6,4,122.0,20.33,66.67,88.0,0
+STU-0130,Jaipur,Analytics Track,Steady / Average,0.236,Low,0,None (low risk),No action needed,-,6,4,122.9,20.48,60.83,85.33,0
+STU-0131,Kochi,Full Stack + ML,At-Risk Struggling,0.921,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,25.7,12.85,33.0,42.5,1
+STU-0132,Jaipur,Data Analyst Track,Steady / Average,0.09,Low,0,None (low risk),No action needed,-,5,2,117.3,23.46,56.0,78.0,1
+STU-0133,Hyderabad,Data Analyst Track,High Achievers,0.051,Low,0,None (low risk),No action needed,-,4,3,98.0,24.5,56.25,88.75,0
+STU-0134,Chennai,Career Switcher,At-Risk Struggling,0.79,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,2,1,22.0,11.0,59.0,57.0,0
+STU-0135,Ahmedabad,Data Analyst Track,High Achievers,0.0,Low,0,None (low risk),No action needed,-,4,4,156.1,39.02,59.5,100.0,0
+STU-0136,Pune,Data Analyst Track,Steady / Average,0.01,Low,0,None (low risk),No action needed,-,6,5,157.1,26.18,74.33,90.17,0
+STU-0137,Kochi,Career Switcher,High Achievers,0.206,Low,0,None (low risk),No action needed,-,3,2,62.8,20.93,61.33,83.0,0
+STU-0138,Chennai,Data Analyst Track,Steady / Average,0.098,Low,0,None (low risk),No action needed,-,6,5,139.4,23.23,74.6,86.17,0
+STU-0139,Kolkata,Data Analyst Track,Steady / Average,0.397,Low,0,None (low risk),No action needed,-,6,4,106.5,17.75,54.8,74.33,0
+STU-0140,Kochi,Career Switcher,High Achievers,0.016,Low,0,None (low risk),No action needed,-,3,2,80.6,26.87,67.67,87.33,0
+STU-0141,Pune,Data Analyst Track,At-Risk Struggling,0.891,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,4,1,57.7,14.42,51.5,55.0,1
+STU-0142,Delhi,Career Switcher,Steady / Average,0.082,Low,0,None (low risk),No action needed,-,5,3,132.1,26.42,64.25,78.0,0
+STU-0143,Hyderabad,Data Analyst Track,High Achievers,0.001,Low,0,None (low risk),No action needed,-,2,2,70.6,35.3,70.5,100.0,0
+STU-0144,Kolkata,AI/ML Enthusiast,High Achievers,0.041,Low,0,None (low risk),No action needed,-,3,2,75.7,25.23,75.0,74.33,0
+STU-0145,Chennai,Full Stack + ML,At-Risk Struggling,0.929,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,40.5,13.5,32.0,65.67,1
+STU-0146,Mumbai,Full Stack + ML,Disengaged High-Scorers,0.298,Low,0,None (low risk),No action needed,-,4,3,65.1,16.27,70.0,76.75,0
+STU-0147,Bengaluru,Full Stack + ML,High Achievers,0.008,Low,0,None (low risk),No action needed,-,2,1,63.2,31.6,47.5,95.0,0
+STU-0148,Delhi,Data Analyst Track,Steady / Average,0.764,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,95.8,15.97,56.0,56.33,1
+STU-0149,Delhi,Data Analyst Track,Steady / Average,0.647,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,3,71.0,14.2,60.0,76.6,0
+STU-0150,Pune,Data Analyst Track,High Achievers,0.172,Low,0,None (low risk),No action needed,-,2,1,34.5,17.25,66.5,87.5,0
+STU-0151,Ahmedabad,Data Analyst Track,Steady / Average,0.37,Low,0,None (low risk),No action needed,-,4,2,84.5,21.12,51.5,82.25,0
+STU-0152,Delhi,AI/ML Enthusiast,Steady / Average,0.633,High,1,"High course load, Low study hours",Review workload before new enrolments,Within 1 week,6,2,106.4,17.73,56.67,55.5,1
+STU-0153,Jaipur,Data Analyst Track,High Achievers,0.004,Low,0,None (low risk),No action needed,-,2,2,53.9,26.95,90.0,100.0,0
+STU-0154,Bengaluru,Analytics Track,Steady / Average,0.069,Low,0,None (low risk),No action needed,-,5,5,116.4,23.28,60.6,100.0,0
+STU-0155,Kolkata,Full Stack + ML,Steady / Average,0.1,Low,0,None (low risk),No action needed,-,6,4,138.1,23.02,58.83,94.0,0
+STU-0156,Mumbai,Career Switcher,High Achievers,0.024,Low,0,None (low risk),No action needed,-,2,2,59.9,29.95,62.0,100.0,0
+STU-0157,Bengaluru,AI/ML Enthusiast,High Achievers,0.027,Low,0,None (low risk),No action needed,-,4,3,89.2,22.3,73.0,89.0,0
+STU-0158,Chennai,Data Analyst Track,Steady / Average,0.034,Low,0,None (low risk),No action needed,-,5,5,121.8,24.36,69.8,100.0,0
+STU-0159,Pune,Career Switcher,Disengaged High-Scorers,0.155,Low,0,None (low risk),No action needed,-,4,2,81.0,20.25,75.0,76.75,0
+STU-0160,Kolkata,AI/ML Enthusiast,Steady / Average,0.28,Low,0,None (low risk),No action needed,-,5,1,90.5,18.1,61.2,68.8,1
+STU-0161,Hyderabad,Analytics Track,High Achievers,0.006,Low,0,None (low risk),No action needed,-,5,5,136.1,27.22,78.8,100.0,0
+STU-0162,Kolkata,Analytics Track,At-Risk Struggling,0.116,Low,0,None (low risk),No action needed,-,2,1,47.9,23.95,47.0,73.5,0
+STU-0163,Pune,Career Switcher,Steady / Average,0.135,Low,0,None (low risk),No action needed,-,6,3,148.6,24.77,54.67,82.0,0
+STU-0164,Hyderabad,Full Stack + ML,Disengaged High-Scorers,0.125,Low,0,None (low risk),No action needed,-,3,1,47.1,15.7,85.5,63.67,1
+STU-0165,Chennai,Career Switcher,High Achievers,0.009,Low,0,None (low risk),No action needed,-,3,2,82.1,27.37,66.0,92.0,0
+STU-0166,Chennai,AI/ML Enthusiast,Steady / Average,0.296,Low,0,None (low risk),No action needed,-,6,2,104.7,17.45,73.4,66.17,1
+STU-0167,Jaipur,Full Stack + ML,High Achievers,0.008,Low,0,None (low risk),No action needed,-,2,2,57.3,28.65,65.5,100.0,0
+STU-0168,Pune,Full Stack + ML,High Achievers,0.069,Low,0,None (low risk),No action needed,-,2,2,36.1,18.05,61.0,100.0,0
+STU-0169,Ahmedabad,Data Analyst Track,Steady / Average,0.133,Low,0,None (low risk),No action needed,-,5,1,101.0,20.2,55.0,75.6,1
+STU-0170,Bengaluru,Career Switcher,At-Risk Struggling,0.356,Low,0,None (low risk),No action needed,-,3,1,54.0,18.0,45.33,68.0,1
+STU-0171,Kolkata,AI/ML Enthusiast,High Achievers,0.022,Low,0,None (low risk),No action needed,-,3,2,84.3,28.1,67.67,91.33,0
+STU-0172,Pune,AI/ML Enthusiast,High Achievers,0.149,Low,0,None (low risk),No action needed,-,3,2,64.9,21.63,59.33,91.67,0
+STU-0173,Kolkata,Analytics Track,Disengaged High-Scorers,0.103,Low,0,None (low risk),No action needed,-,5,4,92.7,18.54,81.75,82.4,0
+STU-0174,Chennai,Career Switcher,High Achievers,0.103,Low,0,None (low risk),No action needed,-,2,1,43.3,21.65,66.0,72.5,0
+STU-0175,Kolkata,Full Stack + ML,Steady / Average,0.077,Low,0,None (low risk),No action needed,-,6,3,120.3,20.05,69.83,82.67,0
+STU-0176,Jaipur,AI/ML Enthusiast,At-Risk Struggling,0.898,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,1,52.2,10.44,54.75,61.0,1
+STU-0177,Ahmedabad,Analytics Track,Steady / Average,0.537,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,103.6,17.27,59.25,59.67,1
+STU-0178,Hyderabad,Career Switcher,High Achievers,0.005,Low,0,None (low risk),No action needed,-,4,3,132.1,33.02,67.5,84.5,0
+STU-0179,Jaipur,AI/ML Enthusiast,Steady / Average,0.268,Low,0,None (low risk),No action needed,-,6,3,141.9,23.65,44.83,72.33,0
+STU-0180,Kolkata,Data Analyst Track,Steady / Average,0.424,Medium,1,"High course load, Very low result in one course",Review workload before new enrolments,Within 1 month,6,3,120.9,20.15,55.8,72.83,0
+STU-0181,Jaipur,Analytics Track,High Achievers,0.129,Low,0,None (low risk),No action needed,-,4,2,98.3,24.58,64.5,83.5,0
+STU-0182,Hyderabad,AI/ML Enthusiast,Steady / Average,0.204,Low,0,None (low risk),No action needed,-,4,2,76.5,19.12,61.0,88.0,0
+STU-0183,Chennai,Data Analyst Track,Steady / Average,0.099,Low,0,None (low risk),No action needed,-,4,2,88.8,22.2,62.0,69.5,0
+STU-0184,Kolkata,AI/ML Enthusiast,High Achievers,0.009,Low,0,None (low risk),No action needed,-,5,4,143.1,28.62,72.0,98.0,0
+STU-0185,Mumbai,Data Analyst Track,High Achievers,0.022,Low,0,None (low risk),No action needed,-,3,2,92.0,30.67,56.0,92.33,0
+STU-0186,Kolkata,Data Analyst Track,High Achievers,0.249,Low,0,None (low risk),No action needed,-,3,2,65.3,21.77,71.67,82.33,0
+STU-0187,Mumbai,Full Stack + ML,Steady / Average,0.076,Low,0,None (low risk),No action needed,-,6,4,147.4,24.57,59.8,80.5,0
+STU-0188,Hyderabad,Analytics Track,At-Risk Struggling,0.778,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,35.3,11.77,44.0,57.0,1
+STU-0189,Kochi,Full Stack + ML,High Achievers,0.046,Low,0,None (low risk),No action needed,-,2,1,50.4,25.2,67.5,91.5,0
+STU-0190,Mumbai,Full Stack + ML,Disengaged High-Scorers,0.009,Low,0,None (low risk),No action needed,-,3,2,74.1,24.7,89.67,76.67,0
+STU-0191,Bengaluru,AI/ML Enthusiast,Steady / Average,0.012,Low,0,None (low risk),No action needed,-,5,3,119.3,23.86,74.2,83.2,0
+STU-0192,Ahmedabad,Full Stack + ML,Steady / Average,0.02,Low,0,None (low risk),No action needed,-,6,5,148.3,24.72,66.33,88.33,0
+STU-0193,Pune,Data Analyst Track,High Achievers,0.28,Low,0,None (low risk),No action needed,-,2,2,33.4,16.7,67.0,100.0,0
+STU-0194,Kochi,Data Analyst Track,At-Risk Struggling,0.593,Medium,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 month,4,1,72.5,18.12,59.0,55.5,1
+STU-0195,Pune,Analytics Track,High Achievers,0.27,Low,0,None (low risk),No action needed,-,3,3,70.8,23.6,55.67,100.0,0
+STU-0196,Mumbai,Full Stack + ML,High Achievers,0.007,Low,0,None (low risk),No action needed,-,3,3,82.6,27.53,79.33,100.0,0
+STU-0197,Mumbai,Full Stack + ML,At-Risk Struggling,0.532,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,2,1,30.5,15.25,52.0,60.5,0
+STU-0198,Kochi,Full Stack + ML,Steady / Average,0.137,Low,0,None (low risk),No action needed,-,6,5,121.8,20.3,64.0,87.67,0
+STU-0199,Chennai,Career Switcher,Disengaged High-Scorers,0.074,Low,0,None (low risk),No action needed,-,4,1,88.6,22.15,68.33,66.25,1
+STU-0200,Kochi,Career Switcher,High Achievers,0.054,Low,0,None (low risk),No action needed,-,3,2,79.1,26.37,69.33,95.33,0
+STU-0201,Kochi,Data Analyst Track,At-Risk Struggling,0.31,Low,0,None (low risk),No action needed,-,2,1,29.5,14.75,62.0,53.0,0
+STU-0202,Jaipur,Data Analyst Track,Disengaged High-Scorers,0.328,Low,0,None (low risk),No action needed,-,4,2,63.4,15.85,69.5,62.5,0
+STU-0203,Kolkata,Full Stack + ML,Disengaged High-Scorers,0.21,Low,0,None (low risk),No action needed,-,2,1,30.3,15.15,80.0,56.5,0
+STU-0204,Kolkata,AI/ML Enthusiast,Steady / Average,0.004,Low,0,None (low risk),No action needed,-,6,5,173.2,28.87,72.17,96.33,0
+STU-0205,Ahmedabad,Analytics Track,Steady / Average,0.011,Low,0,None (low risk),No action needed,-,5,5,110.6,22.12,84.0,100.0,0
+STU-0206,Bengaluru,AI/ML Enthusiast,At-Risk Struggling,0.292,Low,0,None (low risk),No action needed,-,3,1,67.8,22.6,41.0,73.33,1
+STU-0207,Chennai,AI/ML Enthusiast,Steady / Average,0.012,Low,0,None (low risk),No action needed,-,6,4,152.2,25.37,70.83,92.0,0
+STU-0208,Hyderabad,Data Analyst Track,Steady / Average,0.242,Low,0,None (low risk),No action needed,-,6,4,119.3,19.88,64.8,81.67,0
+STU-0209,Pune,Full Stack + ML,High Achievers,0.032,Low,0,None (low risk),No action needed,-,3,2,98.1,32.7,51.0,92.0,0
+STU-0210,Chennai,Career Switcher,Steady / Average,0.039,Low,0,None (low risk),No action needed,-,5,4,100.9,20.18,84.4,93.4,0
+STU-0211,Hyderabad,Career Switcher,At-Risk Struggling,0.469,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,4,1,64.5,16.12,57.0,68.25,1
+STU-0212,Chennai,AI/ML Enthusiast,Steady / Average,0.197,Low,0,None (low risk),No action needed,-,4,2,79.9,19.97,65.0,87.25,0
+STU-0213,Delhi,Analytics Track,Steady / Average,0.046,Low,0,None (low risk),No action needed,-,5,3,124.3,24.86,73.2,83.6,0
+STU-0214,Ahmedabad,AI/ML Enthusiast,High Achievers,0.002,Low,0,None (low risk),No action needed,-,2,2,65.0,32.5,80.0,100.0,0
+STU-0215,Kochi,Analytics Track,At-Risk Struggling,0.726,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,3,1,38.6,12.87,61.0,62.33,1
+STU-0216,Delhi,Data Analyst Track,High Achievers,0.028,Low,0,None (low risk),No action needed,-,3,3,81.1,27.03,52.0,100.0,0
+STU-0217,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.633,High,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 week,3,1,34.9,11.63,55.0,77.0,1
+STU-0218,Kochi,Data Analyst Track,Steady / Average,0.193,Low,0,None (low risk),No action needed,-,5,4,94.5,18.9,68.2,93.0,0
+STU-0219,Mumbai,Analytics Track,Steady / Average,0.404,Medium,1,"High course load, Low study hours",Review workload before new enrolments,Within 1 month,6,4,114.4,19.07,56.33,81.5,0
+STU-0220,Mumbai,Career Switcher,Steady / Average,0.505,Medium,1,"Uneven effort across courses, High course load",Counsellor to review course priorities,Within 1 month,6,2,113.7,18.95,66.25,59.83,1
+STU-0221,Pune,Career Switcher,Disengaged High-Scorers,0.339,Low,0,None (low risk),No action needed,-,2,1,31.8,15.9,70.0,63.0,0
+STU-0222,Jaipur,AI/ML Enthusiast,High Achievers,0.005,Low,0,None (low risk),No action needed,-,2,2,68.4,34.2,63.0,100.0,0
+STU-0223,Mumbai,Data Analyst Track,Disengaged High-Scorers,0.749,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,3,2,35.6,11.87,66.0,71.33,0
+STU-0224,Hyderabad,AI/ML Enthusiast,High Achievers,0.035,Low,0,None (low risk),No action needed,-,2,2,52.8,26.4,51.0,100.0,0
+STU-0225,Pune,Career Switcher,Steady / Average,0.032,Low,0,None (low risk),No action needed,-,6,5,141.3,23.55,59.67,94.67,0
+STU-0226,Kochi,Data Analyst Track,At-Risk Struggling,0.671,High,1,"Low study hours, Low best quiz score",Teacher check-in; agree weekly study goals,Within 1 week,3,1,25.4,8.47,60.0,50.0,1
+STU-0227,Kochi,AI/ML Enthusiast,At-Risk Struggling,0.84,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,73.7,12.28,52.25,51.0,1
+STU-0228,Delhi,AI/ML Enthusiast,Steady / Average,0.05,Low,0,None (low risk),No action needed,-,6,4,142.8,23.8,62.0,88.17,0
+STU-0229,Mumbai,Data Analyst Track,Disengaged High-Scorers,0.042,Low,0,None (low risk),No action needed,-,4,3,84.3,21.08,81.0,77.25,0
+STU-0230,Hyderabad,Data Analyst Track,High Achievers,0.123,Low,0,None (low risk),No action needed,-,2,2,38.8,19.4,47.5,100.0,0
+STU-0231,Kolkata,Analytics Track,Steady / Average,0.394,Low,0,None (low risk),No action needed,-,5,2,104.1,20.82,52.6,66.6,1
+STU-0232,Jaipur,Full Stack + ML,Steady / Average,0.043,Low,0,None (low risk),No action needed,-,6,4,151.8,25.3,55.67,88.33,0
+STU-0233,Hyderabad,Full Stack + ML,Steady / Average,0.205,Low,0,None (low risk),No action needed,-,4,1,95.3,23.82,65.25,70.0,1
+STU-0234,Mumbai,Full Stack + ML,High Achievers,0.057,Low,0,None (low risk),No action needed,-,4,3,100.1,25.02,70.0,81.75,0
+STU-0235,Hyderabad,Full Stack + ML,Steady / Average,0.358,Low,0,None (low risk),No action needed,-,5,2,93.9,18.78,69.5,70.4,1
+STU-0236,Kolkata,Full Stack + ML,High Achievers,0.064,Low,0,None (low risk),No action needed,-,3,3,58.3,19.43,75.33,100.0,0
+STU-0237,Chennai,Career Switcher,Disengaged High-Scorers,0.176,Low,0,None (low risk),No action needed,-,2,1,14.6,7.3,96.0,53.0,0
+STU-0238,Pune,Career Switcher,High Achievers,0.066,Low,0,None (low risk),No action needed,-,3,2,77.3,25.77,55.0,93.0,0
+STU-0239,Mumbai,Analytics Track,Steady / Average,0.149,Low,0,None (low risk),No action needed,-,5,4,112.4,22.48,66.8,94.0,0
+STU-0240,Pune,Data Analyst Track,At-Risk Struggling,0.904,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,1,67.7,11.28,50.0,52.67,1
+STU-0241,Kochi,Career Switcher,Disengaged High-Scorers,0.282,Low,0,None (low risk),No action needed,-,4,2,58.7,14.68,65.0,71.0,0
+STU-0242,Chennai,Data Analyst Track,High Achievers,0.018,Low,0,None (low risk),No action needed,-,3,2,91.2,30.4,66.33,84.0,0
+STU-0243,Kochi,Career Switcher,High Achievers,0.001,Low,0,None (low risk),No action needed,-,2,2,69.9,34.95,63.5,100.0,0
+STU-0244,Pune,Full Stack + ML,At-Risk Struggling,0.847,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,26.7,8.9,49.0,59.33,1
+STU-0245,Hyderabad,Analytics Track,Disengaged High-Scorers,0.059,Low,0,None (low risk),No action needed,-,4,2,80.7,20.18,73.67,69.0,0
+STU-0246,Ahmedabad,AI/ML Enthusiast,Steady / Average,0.099,Low,0,None (low risk),No action needed,-,5,2,109.6,21.92,68.8,70.6,1
+STU-0247,Hyderabad,Analytics Track,At-Risk Struggling,0.765,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,1,50.5,10.1,55.8,51.8,1
+STU-0248,Chennai,Full Stack + ML,High Achievers,0.01,Low,0,None (low risk),No action needed,-,3,3,86.3,28.77,74.0,100.0,0
+STU-0249,Mumbai,AI/ML Enthusiast,High Achievers,0.008,Low,0,None (low risk),No action needed,-,3,3,83.2,27.73,80.0,100.0,0
+STU-0250,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.252,Low,0,None (low risk),No action needed,-,3,1,53.8,17.93,55.0,69.33,1
+STU-0251,Kochi,Full Stack + ML,At-Risk Struggling,0.918,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,1,54.0,13.5,36.25,69.5,1
+STU-0252,Bengaluru,AI/ML Enthusiast,Steady / Average,0.145,Low,0,None (low risk),No action needed,-,5,3,111.2,22.24,54.6,80.0,0
+STU-0253,Ahmedabad,AI/ML Enthusiast,Disengaged High-Scorers,0.473,Medium,1,"Low study hours, Very little time on one course",Teacher check-in; agree weekly study goals,Within 1 month,3,1,29.9,9.97,82.0,57.0,1
+STU-0254,Ahmedabad,Career Switcher,Disengaged High-Scorers,0.106,Low,0,None (low risk),No action needed,-,4,2,80.4,20.1,69.0,75.25,0
+STU-0255,Chennai,AI/ML Enthusiast,High Achievers,0.022,Low,0,None (low risk),No action needed,-,4,3,118.2,29.55,53.5,91.75,0
+STU-0256,Chennai,Career Switcher,High Achievers,0.117,Low,0,None (low risk),No action needed,-,4,2,107.5,26.88,49.0,84.5,0
+STU-0257,Mumbai,Analytics Track,At-Risk Struggling,0.904,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,2,44.0,8.8,60.33,51.6,1
+STU-0258,Ahmedabad,Career Switcher,Disengaged High-Scorers,0.069,Low,0,None (low risk),No action needed,-,3,2,57.0,19.0,69.0,80.67,0
+STU-0259,Bengaluru,Career Switcher,High Achievers,0.013,Low,0,None (low risk),No action needed,-,3,2,68.1,22.7,76.67,94.67,0
+STU-0260,Bengaluru,Full Stack + ML,Disengaged High-Scorers,0.212,Low,0,None (low risk),No action needed,-,4,2,64.4,16.1,80.67,66.25,0
+STU-0261,Jaipur,Data Analyst Track,Disengaged High-Scorers,0.158,Low,0,None (low risk),No action needed,-,2,1,37.1,18.55,63.5,70.5,0
+STU-0262,Ahmedabad,Full Stack + ML,At-Risk Struggling,0.489,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,3,1,51.7,17.23,44.0,79.67,1
+STU-0263,Jaipur,Full Stack + ML,At-Risk Struggling,0.714,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,3,1,42.5,14.17,58.0,50.67,1
+STU-0264,Bengaluru,Data Analyst Track,Steady / Average,0.063,Low,0,None (low risk),No action needed,-,4,2,99.2,24.8,62.0,68.5,0
+STU-0265,Delhi,Career Switcher,Steady / Average,0.087,Low,0,None (low risk),No action needed,-,6,4,129.7,21.62,70.6,85.5,0
+STU-0266,Pune,Analytics Track,At-Risk Struggling,0.175,Low,0,None (low risk),No action needed,-,3,1,57.0,19.0,59.33,77.0,1
+STU-0267,Pune,Career Switcher,At-Risk Struggling,0.627,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,2,71.7,14.34,59.0,61.2,1
+STU-0268,Kolkata,AI/ML Enthusiast,High Achievers,0.043,Low,0,None (low risk),No action needed,-,2,1,48.9,24.45,56.0,93.0,0
+STU-0269,Jaipur,Full Stack + ML,High Achievers,0.014,Low,0,None (low risk),No action needed,-,4,4,92.5,23.12,82.5,100.0,0
+STU-0270,Bengaluru,Analytics Track,High Achievers,0.088,Low,0,None (low risk),No action needed,-,4,3,78.4,19.6,72.75,90.75,0
+STU-0271,Pune,AI/ML Enthusiast,At-Risk Struggling,0.813,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,1,72.2,14.44,58.67,50.8,1
+STU-0272,Bengaluru,Data Analyst Track,Disengaged High-Scorers,0.125,Low,0,None (low risk),No action needed,-,3,1,55.3,18.43,68.33,82.67,1
+STU-0273,Chennai,Career Switcher,Steady / Average,0.287,Low,0,None (low risk),No action needed,-,6,3,113.6,18.93,68.4,79.5,0
+STU-0274,Delhi,Full Stack + ML,High Achievers,0.005,Low,0,None (low risk),No action needed,-,5,5,160.6,32.12,63.2,100.0,0
+STU-0275,Kolkata,Full Stack + ML,Disengaged High-Scorers,0.189,Low,0,None (low risk),No action needed,-,3,1,45.2,15.07,77.5,58.0,1
+STU-0276,Delhi,Full Stack + ML,Steady / Average,0.031,Low,0,None (low risk),No action needed,-,6,4,159.6,26.6,70.6,75.17,0
+STU-0277,Mumbai,AI/ML Enthusiast,Disengaged High-Scorers,0.9,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,50.3,8.38,77.0,47.5,1
+STU-0278,Pune,Analytics Track,Steady / Average,0.007,Low,0,None (low risk),No action needed,-,6,5,175.4,29.23,56.33,88.67,0
+STU-0279,Mumbai,Full Stack + ML,Steady / Average,0.005,Low,0,None (low risk),No action needed,-,6,4,167.0,27.83,70.0,87.33,0
+STU-0280,Mumbai,Career Switcher,Steady / Average,0.682,High,1,"Uneven effort across courses, High course load",Counsellor to review course priorities,Within 1 week,6,2,113.4,18.9,69.5,58.17,1
+STU-0281,Kolkata,Career Switcher,Steady / Average,0.079,Low,0,None (low risk),No action needed,-,6,3,125.7,20.95,62.83,82.17,0
+STU-0282,Chennai,Analytics Track,High Achievers,0.061,Low,0,None (low risk),No action needed,-,2,2,41.6,20.8,67.0,100.0,0
+STU-0283,Kolkata,AI/ML Enthusiast,High Achievers,0.016,Low,0,None (low risk),No action needed,-,3,3,94.3,31.43,59.67,100.0,0
+STU-0284,Kochi,Analytics Track,Steady / Average,0.247,Low,0,None (low risk),No action needed,-,6,4,122.1,20.35,71.8,82.0,0
+STU-0285,Chennai,Full Stack + ML,At-Risk Struggling,0.361,Low,0,None (low risk),No action needed,-,4,2,94.4,23.6,41.0,73.75,0
+STU-0286,Chennai,AI/ML Enthusiast,High Achievers,0.076,Low,0,None (low risk),No action needed,-,3,3,67.8,22.6,53.67,100.0,0
+STU-0287,Mumbai,Analytics Track,High Achievers,0.01,Low,0,None (low risk),No action needed,-,4,3,126.7,31.68,56.67,80.5,0
+STU-0288,Chennai,Analytics Track,High Achievers,0.247,Low,0,None (low risk),No action needed,-,4,3,85.4,21.35,55.0,89.5,0
+STU-0289,Mumbai,AI/ML Enthusiast,Steady / Average,0.637,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,3,93.8,15.63,70.25,68.33,0
+STU-0290,Hyderabad,AI/ML Enthusiast,Steady / Average,0.021,Low,0,None (low risk),No action needed,-,5,4,129.3,25.86,70.75,84.6,0
+STU-0291,Chennai,Analytics Track,Steady / Average,0.031,Low,0,None (low risk),No action needed,-,6,4,153.2,25.53,69.2,78.5,0
+STU-0292,Delhi,Analytics Track,High Achievers,0.003,Low,0,None (low risk),No action needed,-,4,3,124.3,31.08,84.67,78.5,0
+STU-0293,Mumbai,AI/ML Enthusiast,At-Risk Struggling,0.902,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,5,1,49.7,9.94,56.5,47.2,1
+STU-0294,Kolkata,Career Switcher,High Achievers,0.028,Low,0,None (low risk),No action needed,-,4,4,103.7,25.92,52.5,100.0,0
+STU-0295,Mumbai,Full Stack + ML,High Achievers,0.008,Low,0,None (low risk),No action needed,-,2,2,71.0,35.5,49.5,100.0,0
+STU-0296,Jaipur,Analytics Track,Steady / Average,0.087,Low,0,None (low risk),No action needed,-,6,5,142.3,23.72,66.83,88.33,0
+STU-0297,Ahmedabad,Data Analyst Track,High Achievers,0.012,Low,0,None (low risk),No action needed,-,2,2,52.6,26.3,72.5,100.0,0
+STU-0298,Mumbai,Analytics Track,Steady / Average,0.041,Low,0,None (low risk),No action needed,-,5,4,128.0,25.6,72.0,92.4,0
+STU-0299,Ahmedabad,Career Switcher,High Achievers,0.088,Low,0,None (low risk),No action needed,-,3,1,69.1,23.03,66.67,75.67,1
+STU-0300,Ahmedabad,Career Switcher,Steady / Average,0.305,Low,0,None (low risk),No action needed,-,6,3,113.4,18.9,64.6,72.0,0
+STU-0301,Ahmedabad,AI/ML Enthusiast,Steady / Average,0.058,Low,0,None (low risk),No action needed,-,6,5,156.7,26.12,60.5,94.17,0
+STU-0302,Chennai,Analytics Track,High Achievers,0.171,Low,0,None (low risk),No action needed,-,4,2,109.5,27.38,50.75,75.5,0
+STU-0303,Ahmedabad,Full Stack + ML,High Achievers,0.08,Low,0,None (low risk),No action needed,-,4,3,85.4,21.35,71.75,94.5,0
+STU-0304,Kolkata,Analytics Track,High Achievers,0.005,Low,0,None (low risk),No action needed,-,2,2,51.6,25.8,73.5,100.0,0
+STU-0305,Chennai,AI/ML Enthusiast,Steady / Average,0.663,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,3,87.1,14.52,65.6,69.67,0
+STU-0306,Kochi,AI/ML Enthusiast,High Achievers,0.199,Low,0,None (low risk),No action needed,-,2,1,56.7,28.35,46.5,69.0,0
+STU-0307,Bengaluru,Career Switcher,High Achievers,0.065,Low,0,None (low risk),No action needed,-,3,2,68.2,22.73,67.67,96.33,0
+STU-0308,Jaipur,Data Analyst Track,High Achievers,0.025,Low,0,None (low risk),No action needed,-,2,2,42.2,21.1,90.0,100.0,0
+STU-0309,Chennai,Data Analyst Track,High Achievers,0.013,Low,0,None (low risk),No action needed,-,4,4,86.2,21.55,88.5,100.0,0
+STU-0310,Delhi,AI/ML Enthusiast,High Achievers,0.044,Low,0,None (low risk),No action needed,-,2,1,60.4,30.2,59.5,84.5,0
+STU-0311,Chennai,AI/ML Enthusiast,Disengaged High-Scorers,0.739,High,1,"Low study hours, Very little time on one course",Teacher check-in; agree weekly study goals,Within 1 week,4,1,25.3,6.32,77.5,41.0,1
+STU-0312,Chennai,Data Analyst Track,Disengaged High-Scorers,0.559,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,2,64.4,12.88,68.6,69.4,1
+STU-0313,Kochi,Data Analyst Track,At-Risk Struggling,0.612,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,44.8,14.93,55.0,64.33,1
+STU-0314,Ahmedabad,Data Analyst Track,Steady / Average,0.413,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,2,93.2,18.64,56.8,79.2,1
+STU-0315,Delhi,Analytics Track,At-Risk Struggling,0.348,Low,0,None (low risk),No action needed,-,3,0,61.0,20.33,38.0,69.67,1
+STU-0316,Delhi,Full Stack + ML,Steady / Average,0.097,Low,0,None (low risk),No action needed,-,6,3,128.3,21.38,58.33,85.83,0
+STU-0317,Bengaluru,Full Stack + ML,At-Risk Struggling,0.172,Low,0,None (low risk),No action needed,-,2,1,34.0,17.0,61.5,68.0,0
+STU-0318,Mumbai,AI/ML Enthusiast,High Achievers,0.017,Low,0,None (low risk),No action needed,-,4,2,111.1,27.78,54.5,77.0,0
+STU-0319,Kolkata,Data Analyst Track,At-Risk Struggling,0.709,High,1,"Uneven effort across courses, Very low result in one course",Counsellor to review course priorities,Within 1 week,4,1,81.4,20.35,50.0,63.0,1
+STU-0320,Delhi,Full Stack + ML,Steady / Average,0.169,Low,0,None (low risk),No action needed,-,5,3,115.9,23.18,63.75,73.8,0
+STU-0321,Delhi,Analytics Track,High Achievers,0.178,Low,0,None (low risk),No action needed,-,4,2,98.1,24.52,57.0,81.5,0
+STU-0322,Ahmedabad,Analytics Track,Steady / Average,0.028,Low,0,None (low risk),No action needed,-,5,4,118.4,23.68,73.8,91.6,0
+STU-0323,Bengaluru,Analytics Track,At-Risk Struggling,0.536,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,2,0,35.5,17.75,44.0,49.5,1
+STU-0324,Jaipur,Career Switcher,Steady / Average,0.609,High,1,"Uneven effort across courses, High course load",Counsellor to review course priorities,Within 1 week,5,2,101.0,20.2,54.75,73.6,1
+STU-0325,Hyderabad,Full Stack + ML,Steady / Average,0.12,Low,0,None (low risk),No action needed,-,5,2,120.0,24.0,63.0,75.6,1
+STU-0326,Delhi,Analytics Track,Steady / Average,0.028,Low,0,None (low risk),No action needed,-,6,3,141.1,23.52,69.83,83.17,0
+STU-0327,Delhi,Data Analyst Track,At-Risk Struggling,0.917,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,15.7,7.85,47.5,43.0,1
+STU-0328,Jaipur,Full Stack + ML,Steady / Average,0.083,Low,0,None (low risk),No action needed,-,6,3,152.6,25.43,57.33,83.33,0
+STU-0329,Delhi,Full Stack + ML,Steady / Average,0.451,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,5,3,90.4,18.08,51.8,81.6,0
+STU-0330,Mumbai,Analytics Track,Steady / Average,0.49,Medium,1,"High course load, Low study hours",Review workload before new enrolments,Within 1 month,6,3,112.7,18.78,60.75,67.83,0
+STU-0331,Kochi,Full Stack + ML,High Achievers,0.023,Low,0,None (low risk),No action needed,-,2,2,42.5,21.25,71.0,100.0,0
+STU-0332,Ahmedabad,AI/ML Enthusiast,High Achievers,0.006,Low,0,None (low risk),No action needed,-,2,2,43.6,21.8,85.5,100.0,0
+STU-0333,Chennai,AI/ML Enthusiast,Steady / Average,0.332,Low,0,None (low risk),No action needed,-,6,3,111.1,18.52,57.4,71.83,0
+STU-0334,Kolkata,Full Stack + ML,High Achievers,0.041,Low,0,None (low risk),No action needed,-,3,1,71.6,23.87,56.67,87.0,1
+STU-0335,Chennai,Data Analyst Track,Steady / Average,0.504,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,4,99.5,16.58,59.0,78.83,0
+STU-0336,Kochi,Data Analyst Track,At-Risk Struggling,0.618,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,1,61.2,15.3,58.0,76.5,1
+STU-0337,Kolkata,Career Switcher,Disengaged High-Scorers,0.102,Low,0,None (low risk),No action needed,-,4,3,74.2,18.55,77.5,83.25,0
+STU-0338,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.686,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,25.9,12.95,50.5,48.5,1
+STU-0339,Kolkata,Data Analyst Track,Steady / Average,0.136,Low,0,None (low risk),No action needed,-,5,2,101.6,20.32,65.6,80.6,1
+STU-0340,Mumbai,Analytics Track,Steady / Average,0.038,Low,0,None (low risk),No action needed,-,6,3,144.2,24.03,68.4,77.67,0
+STU-0341,Bengaluru,Career Switcher,Steady / Average,0.008,Low,0,None (low risk),No action needed,-,5,4,151.7,30.34,54.75,84.0,0
+STU-0342,Bengaluru,Data Analyst Track,Disengaged High-Scorers,0.246,Low,0,None (low risk),No action needed,-,4,2,68.0,17.0,67.25,73.5,0
+STU-0343,Ahmedabad,Full Stack + ML,Steady / Average,0.061,Low,0,None (low risk),No action needed,-,5,3,117.3,23.46,70.5,75.6,0
+STU-0344,Mumbai,AI/ML Enthusiast,Steady / Average,0.197,Low,0,None (low risk),No action needed,-,6,4,126.4,21.07,55.5,93.33,0
+STU-0345,Jaipur,Full Stack + ML,Steady / Average,0.49,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,84.2,14.03,67.0,63.0,1
+STU-0346,Delhi,Data Analyst Track,High Achievers,0.049,Low,0,None (low risk),No action needed,-,3,3,73.2,24.4,63.67,100.0,0
+STU-0347,Chennai,AI/ML Enthusiast,Steady / Average,0.081,Low,0,None (low risk),No action needed,-,6,4,153.0,25.5,52.83,91.67,0
+STU-0348,Hyderabad,Analytics Track,Steady / Average,0.081,Low,0,None (low risk),No action needed,-,5,3,113.8,22.76,70.0,80.4,0
+STU-0349,Mumbai,Career Switcher,Steady / Average,0.181,Low,0,None (low risk),No action needed,-,5,4,88.5,17.7,66.0,93.8,0
+STU-0350,Chennai,Career Switcher,At-Risk Struggling,0.409,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,2,0,35.8,17.9,47.5,79.5,1
+STU-0351,Kolkata,Analytics Track,At-Risk Struggling,0.517,Medium,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 month,3,1,40.0,13.33,62.5,53.33,1
+STU-0352,Jaipur,Data Analyst Track,Disengaged High-Scorers,0.174,Low,0,None (low risk),No action needed,-,3,2,65.8,21.93,82.0,70.0,0
+STU-0353,Kolkata,Data Analyst Track,Steady / Average,0.163,Low,0,None (low risk),No action needed,-,5,3,114.8,22.96,52.2,90.0,0
+STU-0354,Pune,Analytics Track,At-Risk Struggling,0.724,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,2,48.4,16.13,38.33,77.67,0
+STU-0355,Ahmedabad,Data Analyst Track,Disengaged High-Scorers,0.043,Low,0,None (low risk),No action needed,-,3,2,64.6,21.53,77.5,75.33,0
+STU-0356,Kochi,Full Stack + ML,At-Risk Struggling,0.723,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,3,1,50.3,16.77,56.67,55.33,1
+STU-0357,Delhi,Data Analyst Track,At-Risk Struggling,0.743,High,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 week,5,2,82.1,16.42,59.75,54.2,1
+STU-0358,Hyderabad,Data Analyst Track,High Achievers,0.066,Low,0,None (low risk),No action needed,-,4,4,90.2,22.55,67.0,100.0,0
+STU-0359,Bengaluru,Data Analyst Track,At-Risk Struggling,0.912,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,0,32.4,10.8,42.0,46.33,1
+STU-0360,Kolkata,Full Stack + ML,High Achievers,0.003,Low,0,None (low risk),No action needed,-,4,3,128.2,32.05,56.75,97.0,0
+STU-0361,Hyderabad,AI/ML Enthusiast,Steady / Average,0.182,Low,0,None (low risk),No action needed,-,5,3,90.8,18.16,72.6,78.6,0
+STU-0362,Chennai,AI/ML Enthusiast,At-Risk Struggling,0.799,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,2,51.4,12.85,55.0,83.0,0
+STU-0363,Hyderabad,AI/ML Enthusiast,At-Risk Struggling,0.303,Low,0,None (low risk),No action needed,-,2,1,32.9,16.45,58.0,81.5,0
+STU-0364,Bengaluru,AI/ML Enthusiast,Disengaged High-Scorers,0.355,Low,0,None (low risk),No action needed,-,6,2,87.3,14.55,76.75,60.33,1
+STU-0365,Delhi,Full Stack + ML,High Achievers,0.077,Low,0,None (low risk),No action needed,-,4,2,111.3,27.83,67.0,76.75,0
+STU-0366,Kolkata,Analytics Track,High Achievers,0.008,Low,0,None (low risk),No action needed,-,2,2,45.4,22.7,83.5,100.0,0
+STU-0367,Mumbai,Analytics Track,Steady / Average,0.072,Low,0,None (low risk),No action needed,-,5,3,130.6,26.12,59.4,88.8,0
+STU-0368,Kochi,Data Analyst Track,High Achievers,0.01,Low,0,None (low risk),No action needed,-,3,2,77.6,25.87,67.33,94.67,0
+STU-0369,Hyderabad,Full Stack + ML,High Achievers,0.017,Low,0,None (low risk),No action needed,-,4,3,110.9,27.72,60.75,96.25,0
+STU-0370,Pune,Data Analyst Track,At-Risk Struggling,0.82,High,1,"Low study hours, Very little time on one course",Teacher check-in; agree weekly study goals,Within 1 week,3,1,18.0,6.0,64.5,49.33,1
+STU-0371,Bengaluru,Career Switcher,Steady / Average,0.523,Medium,1,"High course load, Low quiz scores",Review workload before new enrolments,Within 1 month,6,2,123.9,20.65,45.33,75.5,1
+STU-0372,Bengaluru,Data Analyst Track,High Achievers,0.009,Low,0,None (low risk),No action needed,-,2,2,59.3,29.65,59.0,100.0,0
+STU-0373,Delhi,Career Switcher,Steady / Average,0.146,Low,0,None (low risk),No action needed,-,5,4,91.5,18.3,68.0,91.2,0
+STU-0374,Ahmedabad,Career Switcher,Steady / Average,0.03,Low,0,None (low risk),No action needed,-,5,4,115.3,23.06,63.8,95.0,0
+STU-0375,Kochi,Full Stack + ML,At-Risk Struggling,0.797,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,1,30.8,15.4,43.5,71.0,0
+STU-0376,Hyderabad,Data Analyst Track,Disengaged High-Scorers,0.236,Low,0,None (low risk),No action needed,-,3,1,58.4,19.47,86.0,46.33,1
+STU-0377,Ahmedabad,Data Analyst Track,At-Risk Struggling,0.682,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,3,1,32.8,10.93,58.5,57.0,1
+STU-0378,Chennai,Data Analyst Track,High Achievers,0.09,Low,0,None (low risk),No action needed,-,4,2,95.4,23.85,59.25,89.75,0
+STU-0379,Kolkata,Data Analyst Track,High Achievers,0.031,Low,0,None (low risk),No action needed,-,3,3,73.0,24.33,74.0,100.0,0
+STU-0380,Pune,Career Switcher,High Achievers,0.002,Low,0,None (low risk),No action needed,-,4,4,141.1,35.28,52.5,100.0,0
+STU-0381,Chennai,Data Analyst Track,High Achievers,0.001,Low,0,None (low risk),No action needed,-,3,3,95.5,31.83,79.0,100.0,0
+STU-0382,Bengaluru,Career Switcher,Steady / Average,0.601,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,3,93.2,15.53,61.0,67.5,0
+STU-0383,Ahmedabad,Career Switcher,Disengaged High-Scorers,0.201,Low,0,None (low risk),No action needed,-,4,2,76.0,19.0,69.67,73.25,0
+STU-0384,Pune,Career Switcher,Disengaged High-Scorers,0.307,Low,0,None (low risk),No action needed,-,2,1,31.6,15.8,71.5,66.0,0
+STU-0385,Mumbai,Analytics Track,At-Risk Struggling,0.686,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,2,54.5,13.62,47.33,63.5,0
+STU-0386,Delhi,Career Switcher,Steady / Average,0.564,Medium,1,"High course load, Low study hours",Review workload before new enrolments,Within 1 month,6,3,105.8,17.63,55.17,75.83,0
+STU-0387,Kochi,Data Analyst Track,High Achievers,0.384,Low,0,None (low risk),No action needed,-,3,2,62.0,20.67,53.67,94.0,0
+STU-0388,Hyderabad,Data Analyst Track,At-Risk Struggling,0.913,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,3,0,32.4,10.8,50.0,44.33,1
+STU-0389,Jaipur,Data Analyst Track,At-Risk Struggling,0.409,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,2,1,34.5,17.25,51.0,80.5,0
+STU-0390,Mumbai,Career Switcher,Steady / Average,0.747,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,87.6,14.6,58.75,59.5,1
+STU-0391,Kolkata,Career Switcher,Disengaged High-Scorers,0.106,Low,0,None (low risk),No action needed,-,2,1,33.6,16.8,83.0,64.5,0
+STU-0392,Pune,AI/ML Enthusiast,High Achievers,0.006,Low,0,None (low risk),No action needed,-,3,3,83.6,27.87,80.0,100.0,0
+STU-0393,Delhi,Data Analyst Track,At-Risk Struggling,0.654,High,1,"Uneven effort across courses, Low quiz scores",Counsellor to review course priorities,Within 1 week,5,2,96.5,19.3,48.8,65.0,1
+STU-0394,Jaipur,AI/ML Enthusiast,At-Risk Struggling,0.718,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,33.4,16.7,48.0,56.5,1
+STU-0395,Pune,Career Switcher,Steady / Average,0.126,Low,0,None (low risk),No action needed,-,5,3,99.6,19.92,72.2,77.2,0
+STU-0396,Mumbai,Data Analyst Track,High Achievers,0.027,Low,0,None (low risk),No action needed,-,3,3,64.7,21.57,77.33,100.0,0
+STU-0397,Jaipur,Full Stack + ML,Steady / Average,0.444,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,95.2,15.87,64.2,67.0,1
+STU-0398,Delhi,Data Analyst Track,Steady / Average,0.078,Low,0,None (low risk),No action needed,-,5,2,126.4,25.28,54.0,92.8,1
+STU-0399,Chennai,Data Analyst Track,Steady / Average,0.034,Low,0,None (low risk),No action needed,-,6,3,134.2,22.37,70.17,90.17,0
+STU-0400,Chennai,Full Stack + ML,High Achievers,0.613,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,2,2,29.3,14.65,55.0,100.0,0
+STU-0401,Hyderabad,Career Switcher,Steady / Average,0.074,Low,0,None (low risk),No action needed,-,6,4,125.9,20.98,72.4,77.33,0
+STU-0402,Mumbai,Career Switcher,Steady / Average,0.064,Low,0,None (low risk),No action needed,-,5,4,118.9,23.78,64.2,86.8,0
+STU-0403,Pune,Full Stack + ML,Steady / Average,0.521,Medium,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 month,5,3,79.2,15.84,66.0,78.6,0
+STU-0404,Chennai,Data Analyst Track,At-Risk Struggling,0.7,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,4,2,65.8,16.45,51.0,66.0,0
+STU-0405,Kochi,AI/ML Enthusiast,Steady / Average,0.361,Low,0,None (low risk),No action needed,-,5,3,81.0,16.2,67.25,77.2,0
+STU-0406,Bengaluru,Full Stack + ML,High Achievers,0.364,Low,0,None (low risk),No action needed,-,3,2,78.5,26.17,38.0,87.33,0
+STU-0407,Kolkata,AI/ML Enthusiast,Disengaged High-Scorers,0.7,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,5,2,67.8,13.56,68.0,54.0,1
+STU-0408,Kochi,Career Switcher,Disengaged High-Scorers,0.306,Low,0,None (low risk),No action needed,-,4,2,64.4,16.1,64.25,75.0,0
+STU-0409,Hyderabad,Career Switcher,Disengaged High-Scorers,0.325,Low,0,None (low risk),No action needed,-,2,0,19.4,9.7,73.0,47.0,1
+STU-0410,Kochi,Analytics Track,Steady / Average,0.294,Low,0,None (low risk),No action needed,-,4,2,98.4,24.6,50.33,72.0,0
+STU-0411,Delhi,Career Switcher,At-Risk Struggling,0.79,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,1,27.3,13.65,44.0,78.5,0
+STU-0412,Bengaluru,Data Analyst Track,At-Risk Struggling,0.752,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,4,2,64.4,16.1,54.33,66.75,0
+STU-0413,Ahmedabad,AI/ML Enthusiast,Disengaged High-Scorers,0.05,Low,0,None (low risk),No action needed,-,5,3,80.7,16.14,92.33,66.6,0
+STU-0414,Kolkata,Career Switcher,Disengaged High-Scorers,0.627,High,1,"Low study hours, Very little time on one course",Teacher check-in; agree weekly study goals,Within 1 week,3,1,36.2,12.07,66.5,47.0,1
+STU-0415,Kolkata,Career Switcher,High Achievers,0.025,Low,0,None (low risk),No action needed,-,3,1,66.6,22.2,76.67,80.0,1
+STU-0416,Bengaluru,Analytics Track,Steady / Average,0.053,Low,0,None (low risk),No action needed,-,5,4,108.3,21.66,64.4,93.2,0
+STU-0417,Jaipur,Analytics Track,Steady / Average,0.267,Low,0,None (low risk),No action needed,-,6,3,126.3,21.05,64.6,79.17,0
+STU-0418,Delhi,Data Analyst Track,High Achievers,0.042,Low,0,None (low risk),No action needed,-,4,3,96.7,24.18,73.75,89.0,0
+STU-0419,Bengaluru,AI/ML Enthusiast,At-Risk Struggling,0.749,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,5,1,68.9,13.78,50.25,60.6,1
+STU-0420,Chennai,Data Analyst Track,Steady / Average,0.403,Medium,1,"Very low result in one course, High course load",Tutoring for the weakest course,Within 1 month,5,4,96.7,19.34,65.2,88.4,0
+STU-0421,Chennai,Career Switcher,Steady / Average,0.218,Low,0,None (low risk),No action needed,-,5,4,105.4,21.08,50.2,94.2,0
+STU-0422,Ahmedabad,Career Switcher,At-Risk Struggling,0.726,High,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 week,3,1,45.6,15.2,58.0,59.0,1
+STU-0423,Chennai,Full Stack + ML,Steady / Average,0.153,Low,0,None (low risk),No action needed,-,5,3,101.3,20.26,62.2,87.0,0
+STU-0424,Pune,Analytics Track,Steady / Average,0.591,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,2,94.0,15.67,51.2,72.0,1
+STU-0425,Chennai,Data Analyst Track,Disengaged High-Scorers,0.804,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,2,65.6,13.12,64.5,65.8,1
+STU-0426,Kolkata,AI/ML Enthusiast,Disengaged High-Scorers,0.202,Low,0,None (low risk),No action needed,-,2,1,26.9,13.45,73.0,59.0,0
+STU-0427,Kolkata,Career Switcher,Disengaged High-Scorers,0.605,High,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 week,3,1,49.7,16.57,70.0,47.33,1
+STU-0428,Jaipur,Data Analyst Track,High Achievers,0.185,Low,0,None (low risk),No action needed,-,3,2,48.9,16.3,68.33,90.33,0
+STU-0429,Hyderabad,Full Stack + ML,High Achievers,0.082,Low,0,None (low risk),No action needed,-,3,2,71.0,23.67,70.67,96.33,0
+STU-0430,Delhi,AI/ML Enthusiast,Steady / Average,0.15,Low,0,None (low risk),No action needed,-,6,3,130.2,21.7,51.83,78.33,0
+STU-0431,Chennai,Data Analyst Track,At-Risk Struggling,0.811,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,2,66.8,13.36,60.67,53.8,1
+STU-0432,Hyderabad,AI/ML Enthusiast,Disengaged High-Scorers,0.307,Low,0,None (low risk),No action needed,-,3,2,39.2,13.07,75.5,71.0,0
+STU-0433,Kochi,Data Analyst Track,Steady / Average,0.058,Low,0,None (low risk),No action needed,-,6,5,139.9,23.32,59.5,97.83,0
+STU-0434,Chennai,Analytics Track,Disengaged High-Scorers,0.854,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,4,2,35.0,8.75,66.5,57.75,0
+STU-0435,Kolkata,Career Switcher,Steady / Average,0.288,Low,0,None (low risk),No action needed,-,5,4,99.7,19.94,60.6,90.4,0
+STU-0436,Ahmedabad,Data Analyst Track,Steady / Average,0.406,Medium,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 month,4,2,72.0,18.0,60.5,77.25,0
+STU-0437,Mumbai,Data Analyst Track,At-Risk Struggling,0.786,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,5,0,70.9,14.18,50.8,60.4,1
+STU-0438,Ahmedabad,Analytics Track,Steady / Average,0.077,Low,0,None (low risk),No action needed,-,6,2,127.3,21.22,72.5,81.5,1
+STU-0439,Kolkata,Full Stack + ML,Steady / Average,0.408,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,3,102.6,17.1,60.4,75.83,0
+STU-0440,Jaipur,AI/ML Enthusiast,Steady / Average,0.015,Low,0,None (low risk),No action needed,-,5,4,131.5,26.3,63.8,94.2,0
+STU-0441,Chennai,AI/ML Enthusiast,Disengaged High-Scorers,0.109,Low,0,None (low risk),No action needed,-,3,2,69.8,23.27,78.0,72.67,0
+STU-0442,Kochi,Career Switcher,At-Risk Struggling,0.626,High,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 week,4,2,69.1,17.28,59.0,65.5,0
+STU-0443,Kolkata,Analytics Track,At-Risk Struggling,0.884,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,27.2,13.6,38.0,63.0,1
+STU-0444,Hyderabad,Data Analyst Track,Steady / Average,0.434,Medium,1,"High course load, Low study hours",Review workload before new enrolments,Within 1 month,6,3,112.1,18.68,63.0,74.17,0
+STU-0445,Kolkata,Career Switcher,Disengaged High-Scorers,0.549,Medium,1,"Uneven effort across courses, Low study hours",Counsellor to review course priorities,Within 1 month,6,3,98.8,16.47,80.5,68.33,0
+STU-0446,Chennai,AI/ML Enthusiast,At-Risk Struggling,0.909,High,1,"Low study hours, Uneven effort across courses",Teacher check-in; agree weekly study goals,Within 1 week,5,1,67.7,13.54,55.0,38.0,1
+STU-0447,Chennai,AI/ML Enthusiast,Steady / Average,0.262,Low,0,None (low risk),No action needed,-,5,2,88.3,17.66,60.2,74.0,1
+STU-0448,Mumbai,Data Analyst Track,Disengaged High-Scorers,0.163,Low,0,None (low risk),No action needed,-,4,2,71.6,17.9,63.0,71.5,0
+STU-0449,Kolkata,Full Stack + ML,Steady / Average,0.115,Low,0,None (low risk),No action needed,-,4,2,94.4,23.6,61.67,72.5,0
+STU-0450,Jaipur,AI/ML Enthusiast,High Achievers,0.037,Low,0,None (low risk),No action needed,-,2,2,47.7,23.85,75.5,100.0,0
+STU-0451,Chennai,AI/ML Enthusiast,Disengaged High-Scorers,0.118,Low,0,None (low risk),No action needed,-,2,1,29.0,14.5,96.0,54.0,0
+STU-0452,Kolkata,Career Switcher,Steady / Average,0.047,Low,0,None (low risk),No action needed,-,6,4,124.3,20.72,84.0,72.67,0
+STU-0453,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.721,High,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 week,5,1,74.1,14.82,55.25,52.6,1
+STU-0454,Pune,Data Analyst Track,High Achievers,0.029,Low,0,None (low risk),No action needed,-,3,3,74.0,24.67,66.0,100.0,0
+STU-0455,Chennai,AI/ML Enthusiast,Steady / Average,0.403,Medium,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 month,5,3,76.6,15.32,68.4,80.6,0
+STU-0456,Ahmedabad,Full Stack + ML,High Achievers,0.108,Low,0,None (low risk),No action needed,-,4,3,103.5,25.88,50.75,88.0,0
+STU-0457,Kolkata,Career Switcher,Disengaged High-Scorers,0.146,Low,0,None (low risk),No action needed,-,4,3,70.5,17.62,81.33,76.25,0
+STU-0458,Hyderabad,AI/ML Enthusiast,Disengaged High-Scorers,0.541,Medium,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 month,4,1,52.7,13.18,73.33,51.25,1
+STU-0459,Kochi,AI/ML Enthusiast,High Achievers,0.27,Low,0,None (low risk),No action needed,-,2,0,43.9,21.95,42.5,89.5,1
+STU-0460,Pune,Career Switcher,High Achievers,0.045,Low,0,None (low risk),No action needed,-,3,3,74.5,24.83,58.67,100.0,0
+STU-0461,Bengaluru,AI/ML Enthusiast,Steady / Average,0.223,Low,0,None (low risk),No action needed,-,5,2,96.6,19.32,58.0,71.6,1
+STU-0462,Mumbai,Data Analyst Track,At-Risk Struggling,0.679,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,0,32.7,16.35,41.0,64.0,1
+STU-0463,Delhi,Analytics Track,Steady / Average,0.256,Low,0,None (low risk),No action needed,-,4,3,67.7,16.92,64.33,80.75,0
+STU-0464,Pune,Data Analyst Track,Steady / Average,0.206,Low,0,None (low risk),No action needed,-,6,5,140.1,23.35,63.67,89.83,0
+STU-0465,Jaipur,Career Switcher,High Achievers,0.001,Low,0,None (low risk),No action needed,-,5,5,175.7,35.14,71.2,100.0,0
+STU-0466,Chennai,AI/ML Enthusiast,Steady / Average,0.478,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,3,101.7,16.95,63.6,73.5,0
+STU-0467,Kochi,Analytics Track,Disengaged High-Scorers,0.65,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,2,89.5,14.92,74.0,59.0,1
+STU-0468,Mumbai,Data Analyst Track,Steady / Average,0.6,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,5,3,61.7,12.34,60.6,82.6,0
+STU-0469,Hyderabad,Full Stack + ML,High Achievers,0.154,Low,0,None (low risk),No action needed,-,2,2,37.6,18.8,58.0,100.0,0
+STU-0470,Hyderabad,Career Switcher,At-Risk Struggling,0.793,High,1,"Low study hours, Very low result in one course",Teacher check-in; agree weekly study goals,Within 1 week,4,1,59.6,14.9,51.33,65.25,1
+STU-0471,Jaipur,Career Switcher,Steady / Average,0.543,Medium,1,"Low quiz scores, Low study hours",Tutoring or revision support,Within 1 month,4,2,76.9,19.23,51.5,85.75,0
+STU-0472,Kochi,AI/ML Enthusiast,Steady / Average,0.061,Low,0,None (low risk),No action needed,-,5,3,103.4,20.68,67.0,81.6,0
+STU-0473,Chennai,Analytics Track,Steady / Average,0.682,High,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 week,6,4,91.6,15.27,58.4,73.33,0
+STU-0474,Mumbai,Full Stack + ML,At-Risk Struggling,0.876,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,2,1,23.4,11.7,49.5,82.0,0
+STU-0475,Pune,AI/ML Enthusiast,Disengaged High-Scorers,0.462,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,5,2,78.9,15.78,63.0,61.4,1
+STU-0476,Ahmedabad,Full Stack + ML,Steady / Average,0.243,Low,0,None (low risk),No action needed,-,5,3,101.0,20.2,61.5,78.0,0
+STU-0477,Ahmedabad,Analytics Track,High Achievers,0.093,Low,0,None (low risk),No action needed,-,2,1,60.1,30.05,45.0,79.5,0
+STU-0478,Kochi,AI/ML Enthusiast,Steady / Average,0.016,Low,0,None (low risk),No action needed,-,6,4,164.0,27.33,67.67,87.83,0
+STU-0479,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.71,High,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 week,2,1,41.4,20.7,37.5,74.5,0
+STU-0480,Delhi,Data Analyst Track,Steady / Average,0.069,Low,0,None (low risk),No action needed,-,5,3,119.1,23.82,52.75,79.4,0
+STU-0481,Mumbai,AI/ML Enthusiast,High Achievers,0.073,Low,0,None (low risk),No action needed,-,4,2,90.8,22.7,68.75,85.5,0
+STU-0482,Bengaluru,Career Switcher,Steady / Average,0.045,Low,0,None (low risk),No action needed,-,5,4,124.5,24.9,57.0,83.6,0
+STU-0483,Kolkata,Career Switcher,High Achievers,0.0,Low,0,None (low risk),No action needed,-,5,5,192.6,38.52,61.8,100.0,0
+STU-0484,Chennai,Full Stack + ML,Steady / Average,0.384,Low,0,None (low risk),No action needed,-,5,3,90.7,18.14,55.8,82.6,0
+STU-0485,Jaipur,Full Stack + ML,Disengaged High-Scorers,0.559,Medium,1,"Low study hours, High course load",Teacher check-in; agree weekly study goals,Within 1 month,6,3,73.4,12.23,75.5,63.67,0
+STU-0486,Mumbai,Career Switcher,At-Risk Struggling,0.591,Medium,1,"Low study hours, Low quiz scores",Teacher check-in; agree weekly study goals,Within 1 month,4,1,68.9,17.23,51.0,55.25,1
+STU-0487,Kochi,AI/ML Enthusiast,High Achievers,0.08,Low,0,None (low risk),No action needed,-,3,2,76.8,25.6,65.67,89.33,0
+STU-0488,Bengaluru,Analytics Track,Steady / Average,0.018,Low,0,None (low risk),No action needed,-,5,4,128.4,25.68,70.8,95.2,0
+STU-0489,Pune,Full Stack + ML,Steady / Average,0.039,Low,0,None (low risk),No action needed,-,5,5,104.6,20.92,82.8,100.0,0
+STU-0490,Chennai,AI/ML Enthusiast,At-Risk Struggling,0.516,Medium,1,"Short activity span, Low quiz scores",Re-engagement nudge early in each course,Within 1 month,5,1,99.0,19.8,50.0,62.0,1
+STU-0491,Hyderabad,Full Stack + ML,Steady / Average,0.394,Low,0,None (low risk),No action needed,-,5,3,99.0,19.8,62.25,82.2,0
+STU-0492,Kolkata,Career Switcher,High Achievers,0.1,Low,0,None (low risk),No action needed,-,3,2,62.8,20.93,62.0,81.33,0
+STU-0493,Pune,AI/ML Enthusiast,High Achievers,0.049,Low,0,None (low risk),No action needed,-,4,3,103.0,25.75,63.5,91.5,0
+STU-0494,Ahmedabad,AI/ML Enthusiast,High Achievers,0.032,Low,0,None (low risk),No action needed,-,2,2,41.0,20.5,73.0,100.0,0
+STU-0495,Mumbai,Data Analyst Track,Steady / Average,0.305,Low,0,None (low risk),No action needed,-,6,3,130.8,21.8,61.2,75.67,0
+STU-0496,Delhi,AI/ML Enthusiast,At-Risk Struggling,0.849,High,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 week,4,2,50.8,12.7,57.33,61.25,0
+STU-0497,Kolkata,Full Stack + ML,Disengaged High-Scorers,0.531,Medium,1,"Low study hours, Short activity span",Teacher check-in; agree weekly study goals,Within 1 month,4,2,56.6,14.15,65.0,63.25,0
+STU-0498,Jaipur,Data Analyst Track,Steady / Average,0.242,Low,0,None (low risk),No action needed,-,6,3,111.6,18.6,58.17,80.67,0
+STU-0499,Delhi,Data Analyst Track,Disengaged High-Scorers,0.42,Medium,1,Low study hours,Teacher check-in; agree weekly study goals,Within 1 month,2,1,28.0,14.0,64.5,70.0,0
+STU-0500,Hyderabad,Analytics Track,Disengaged High-Scorers,0.231,Low,0,None (low risk),No action needed,-,3,1,40.8,13.6,76.5,52.0,1
