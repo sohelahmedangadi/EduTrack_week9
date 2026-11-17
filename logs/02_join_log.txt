@@ -1,0 +1,7 @@
+interactions with no matching student (orphans): 0 -> removed
+students with no interactions: 0
+interactions_joined: 2044 rows
+enrollments matching a student: 0 of 497
+enrollments orphaned (no matching student): 497 -> kept separately, not joined
+at-risk rule: avg completion < 60 OR avg quiz < 50
+students flagged at risk: 110 of 500 (22.0%)

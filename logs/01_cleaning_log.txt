@@ -1,0 +1,12 @@
+students: 500 rows read
+students: removed 0 duplicate student_id rows
+students: 0 missing/invalid joined_date
+interactions: 2044 rows read
+interactions: removed 0 duplicate rows
+interactions: 0 rows with last_activity before enrollment (removed)
+interactions: 35 rows flagged as hours outliers (> 51.1 h), kept
+interactions: missing quiz_score = 234, missing rating = 442
+enrollments: 500 rows read
+enrollments: removed 3 repeat student+course rows (kept latest)
+enrollments: missing score_pct = 130, missing employment_outcome = 106
+saved: students 500, interactions 2044, enrollments 497 rows

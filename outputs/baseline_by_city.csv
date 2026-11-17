@@ -1,0 +1,11 @@
+city,students,avg_quiz_score,completion_rate_pct,interactions_per_student,at_risk_pct
+Ahmedabad,42,66.7,63.3,4.0,14.3
+Hyderabad,46,64.8,57.8,3.8,19.6
+Kolkata,66,64.5,59.4,4.0,21.2
+Jaipur,39,63.9,59.1,4.2,15.4
+Chennai,62,63.3,58.4,4.4,19.4
+Mumbai,59,63.2,58.6,4.3,22.0
+Pune,45,62.1,63.3,4.0,17.8
+Kochi,49,60.4,54.7,3.8,28.6
+Bengaluru,41,59.8,53.9,4.1,29.3
+Delhi,51,59.4,50.2,4.3,31.4
