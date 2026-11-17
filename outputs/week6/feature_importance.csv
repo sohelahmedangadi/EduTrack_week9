@@ -1,0 +1,12 @@
+feature,std_coefficient,permutation_importance_auc_drop,direction
+avg_hours_per_course,-1.629,0.2155,lowers risk
+n_interactions,0.428,0.0482,raises risk
+max_hours,0.708,0.0442,raises risk
+total_hours,-0.955,0.0337,lowers risk
+avg_quiz_score,-0.588,0.0291,lowers risk
+min_quiz,-0.249,0.0158,lowers risk
+avg_active_days,-0.3,0.0128,lowers risk
+min_hours,-0.174,0.0031,lowers risk
+share_Tablet,0.053,-0.0018,raises risk
+share_Mobile,-0.022,-0.0019,lowers risk
+max_quiz,0.069,-0.0033,raises risk

@@ -1,0 +1,501 @@
+student_id,segment
+STU-0001,High Achievers
+STU-0002,High Achievers
+STU-0003,At-Risk Struggling
+STU-0004,Steady / Average
+STU-0005,Steady / Average
+STU-0006,High Achievers
+STU-0007,High Achievers
+STU-0008,Disengaged High-Scorers
+STU-0009,High Achievers
+STU-0010,High Achievers
+STU-0011,High Achievers
+STU-0012,Steady / Average
+STU-0013,High Achievers
+STU-0014,At-Risk Struggling
+STU-0015,High Achievers
+STU-0016,Steady / Average
+STU-0017,Steady / Average
+STU-0018,Disengaged High-Scorers
+STU-0019,At-Risk Struggling
+STU-0020,At-Risk Struggling
+STU-0021,Steady / Average
+STU-0022,High Achievers
+STU-0023,At-Risk Struggling
+STU-0024,High Achievers
+STU-0025,Steady / Average
+STU-0026,High Achievers
+STU-0027,Disengaged High-Scorers
+STU-0028,Disengaged High-Scorers
+STU-0029,Disengaged High-Scorers
+STU-0030,Steady / Average
+STU-0031,Steady / Average
+STU-0032,Disengaged High-Scorers
+STU-0033,Disengaged High-Scorers
+STU-0034,Steady / Average
+STU-0035,Steady / Average
+STU-0036,Disengaged High-Scorers
+STU-0037,Steady / Average
+STU-0038,Steady / Average
+STU-0039,At-Risk Struggling
+STU-0040,Steady / Average
+STU-0041,Steady / Average
+STU-0042,At-Risk Struggling
+STU-0043,High Achievers
+STU-0044,Steady / Average
+STU-0045,Steady / Average
+STU-0046,Steady / Average
+STU-0047,Disengaged High-Scorers
+STU-0048,High Achievers
+STU-0049,High Achievers
+STU-0050,High Achievers
+STU-0051,Disengaged High-Scorers
+STU-0052,Steady / Average
+STU-0053,Steady / Average
+STU-0054,High Achievers
+STU-0055,At-Risk Struggling
+STU-0056,Disengaged High-Scorers
+STU-0057,At-Risk Struggling
+STU-0058,High Achievers
+STU-0059,Disengaged High-Scorers
+STU-0060,High Achievers
+STU-0061,Disengaged High-Scorers
+STU-0062,At-Risk Struggling
+STU-0063,At-Risk Struggling
+STU-0064,High Achievers
+STU-0065,High Achievers
+STU-0066,High Achievers
+STU-0067,At-Risk Struggling
+STU-0068,Steady / Average
+STU-0069,At-Risk Struggling
+STU-0070,High Achievers
+STU-0071,High Achievers
+STU-0072,High Achievers
+STU-0073,Disengaged High-Scorers
+STU-0074,At-Risk Struggling
+STU-0075,Steady / Average
+STU-0076,High Achievers
+STU-0077,High Achievers
+STU-0078,Steady / Average
+STU-0079,At-Risk Struggling
+STU-0080,Disengaged High-Scorers
+STU-0081,Steady / Average
+STU-0082,Steady / Average
+STU-0083,Steady / Average
+STU-0084,High Achievers
+STU-0085,At-Risk Struggling
+STU-0086,Steady / Average
+STU-0087,Disengaged High-Scorers
+STU-0088,Steady / Average
+STU-0089,Disengaged High-Scorers
+STU-0090,High Achievers
+STU-0091,At-Risk Struggling
+STU-0092,High Achievers
+STU-0093,At-Risk Struggling
+STU-0094,High Achievers
+STU-0095,At-Risk Struggling
+STU-0096,Disengaged High-Scorers
+STU-0097,Steady / Average
+STU-0098,At-Risk Struggling
+STU-0099,Disengaged High-Scorers
+STU-0100,Steady / Average
+STU-0101,High Achievers
+STU-0102,Steady / Average
+STU-0103,At-Risk Struggling
+STU-0104,At-Risk Struggling
+STU-0105,At-Risk Struggling
+STU-0106,Steady / Average
+STU-0107,At-Risk Struggling
+STU-0108,Steady / Average
+STU-0109,Steady / Average
+STU-0110,High Achievers
+STU-0111,High Achievers
+STU-0112,Steady / Average
+STU-0113,High Achievers
+STU-0114,At-Risk Struggling
+STU-0115,High Achievers
+STU-0116,Steady / Average
+STU-0117,High Achievers
+STU-0118,At-Risk Struggling
+STU-0119,High Achievers
+STU-0120,High Achievers
+STU-0121,Disengaged High-Scorers
+STU-0122,Steady / Average
+STU-0123,At-Risk Struggling
+STU-0124,Steady / Average
+STU-0125,Steady / Average
+STU-0126,Steady / Average
+STU-0127,High Achievers
+STU-0128,High Achievers
+STU-0129,Steady / Average
+STU-0130,Steady / Average
+STU-0131,At-Risk Struggling
+STU-0132,Steady / Average
+STU-0133,High Achievers
+STU-0134,At-Risk Struggling
+STU-0135,High Achievers
+STU-0136,Steady / Average
+STU-0137,High Achievers
+STU-0138,Steady / Average
+STU-0139,Steady / Average
+STU-0140,High Achievers
+STU-0141,At-Risk Struggling
+STU-0142,Steady / Average
+STU-0143,High Achievers
+STU-0144,High Achievers
+STU-0145,At-Risk Struggling
+STU-0146,Disengaged High-Scorers
+STU-0147,High Achievers
+STU-0148,Steady / Average
+STU-0149,Steady / Average
+STU-0150,High Achievers
+STU-0151,Steady / Average
+STU-0152,Steady / Average
+STU-0153,High Achievers
+STU-0154,Steady / Average
+STU-0155,Steady / Average
+STU-0156,High Achievers
+STU-0157,High Achievers
+STU-0158,Steady / Average
+STU-0159,Disengaged High-Scorers
+STU-0160,Steady / Average
+STU-0161,High Achievers
+STU-0162,At-Risk Struggling
+STU-0163,Steady / Average
+STU-0164,Disengaged High-Scorers
+STU-0165,High Achievers
+STU-0166,Steady / Average
+STU-0167,High Achievers
+STU-0168,High Achievers
+STU-0169,Steady / Average
+STU-0170,At-Risk Struggling
+STU-0171,High Achievers
+STU-0172,High Achievers
+STU-0173,Disengaged High-Scorers
+STU-0174,High Achievers
+STU-0175,Steady / Average
+STU-0176,At-Risk Struggling
+STU-0177,Steady / Average
+STU-0178,High Achievers
+STU-0179,Steady / Average
+STU-0180,Steady / Average
+STU-0181,High Achievers
+STU-0182,Steady / Average
+STU-0183,Steady / Average
+STU-0184,High Achievers
+STU-0185,High Achievers
+STU-0186,High Achievers
+STU-0187,Steady / Average
+STU-0188,At-Risk Struggling
+STU-0189,High Achievers
+STU-0190,Disengaged High-Scorers
+STU-0191,Steady / Average
+STU-0192,Steady / Average
+STU-0193,High Achievers
+STU-0194,At-Risk Struggling
+STU-0195,High Achievers
+STU-0196,High Achievers
+STU-0197,At-Risk Struggling
+STU-0198,Steady / Average
+STU-0199,Disengaged High-Scorers
+STU-0200,High Achievers
+STU-0201,At-Risk Struggling
+STU-0202,Disengaged High-Scorers
+STU-0203,Disengaged High-Scorers
+STU-0204,Steady / Average
+STU-0205,Steady / Average
+STU-0206,At-Risk Struggling
+STU-0207,Steady / Average
+STU-0208,Steady / Average
+STU-0209,High Achievers
+STU-0210,Steady / Average
+STU-0211,At-Risk Struggling
+STU-0212,Steady / Average
+STU-0213,Steady / Average
+STU-0214,High Achievers
+STU-0215,At-Risk Struggling
+STU-0216,High Achievers
+STU-0217,At-Risk Struggling
+STU-0218,Steady / Average
+STU-0219,Steady / Average
+STU-0220,Steady / Average
+STU-0221,Disengaged High-Scorers
+STU-0222,High Achievers
+STU-0223,Disengaged High-Scorers
+STU-0224,High Achievers
+STU-0225,Steady / Average
+STU-0226,At-Risk Struggling
+STU-0227,At-Risk Struggling
+STU-0228,Steady / Average
+STU-0229,Disengaged High-Scorers
+STU-0230,High Achievers
+STU-0231,Steady / Average
+STU-0232,Steady / Average
+STU-0233,Steady / Average
+STU-0234,High Achievers
+STU-0235,Steady / Average
+STU-0236,High Achievers
+STU-0237,Disengaged High-Scorers
+STU-0238,High Achievers
+STU-0239,Steady / Average
+STU-0240,At-Risk Struggling
+STU-0241,Disengaged High-Scorers
+STU-0242,High Achievers
+STU-0243,High Achievers
+STU-0244,At-Risk Struggling
+STU-0245,Disengaged High-Scorers
+STU-0246,Steady / Average
+STU-0247,At-Risk Struggling
+STU-0248,High Achievers
+STU-0249,High Achievers
+STU-0250,At-Risk Struggling
+STU-0251,At-Risk Struggling
+STU-0252,Steady / Average
+STU-0253,Disengaged High-Scorers
+STU-0254,Disengaged High-Scorers
+STU-0255,High Achievers
+STU-0256,High Achievers
+STU-0257,At-Risk Struggling
+STU-0258,Disengaged High-Scorers
+STU-0259,High Achievers
+STU-0260,Disengaged High-Scorers
+STU-0261,Disengaged High-Scorers
+STU-0262,At-Risk Struggling
+STU-0263,At-Risk Struggling
+STU-0264,Steady / Average
+STU-0265,Steady / Average
+STU-0266,At-Risk Struggling
+STU-0267,At-Risk Struggling
+STU-0268,High Achievers
+STU-0269,High Achievers
+STU-0270,High Achievers
+STU-0271,At-Risk Struggling
+STU-0272,Disengaged High-Scorers
+STU-0273,Steady / Average
+STU-0274,High Achievers
+STU-0275,Disengaged High-Scorers
+STU-0276,Steady / Average
+STU-0277,Disengaged High-Scorers
+STU-0278,Steady / Average
+STU-0279,Steady / Average
+STU-0280,Steady / Average
+STU-0281,Steady / Average
+STU-0282,High Achievers
+STU-0283,High Achievers
+STU-0284,Steady / Average
+STU-0285,At-Risk Struggling
+STU-0286,High Achievers
+STU-0287,High Achievers
+STU-0288,High Achievers
+STU-0289,Steady / Average
+STU-0290,Steady / Average
+STU-0291,Steady / Average
+STU-0292,High Achievers
+STU-0293,At-Risk Struggling
+STU-0294,High Achievers
+STU-0295,High Achievers
+STU-0296,Steady / Average
+STU-0297,High Achievers
+STU-0298,Steady / Average
+STU-0299,High Achievers
+STU-0300,Steady / Average
+STU-0301,Steady / Average
+STU-0302,High Achievers
+STU-0303,High Achievers
+STU-0304,High Achievers
+STU-0305,Steady / Average
+STU-0306,High Achievers
+STU-0307,High Achievers
+STU-0308,High Achievers
+STU-0309,High Achievers
+STU-0310,High Achievers
+STU-0311,Disengaged High-Scorers
+STU-0312,Disengaged High-Scorers
+STU-0313,At-Risk Struggling
+STU-0314,Steady / Average
+STU-0315,At-Risk Struggling
+STU-0316,Steady / Average
+STU-0317,At-Risk Struggling
+STU-0318,High Achievers
+STU-0319,At-Risk Struggling
+STU-0320,Steady / Average
+STU-0321,High Achievers
+STU-0322,Steady / Average
+STU-0323,At-Risk Struggling
+STU-0324,Steady / Average
+STU-0325,Steady / Average
+STU-0326,Steady / Average
+STU-0327,At-Risk Struggling
+STU-0328,Steady / Average
+STU-0329,Steady / Average
+STU-0330,Steady / Average
+STU-0331,High Achievers
+STU-0332,High Achievers
+STU-0333,Steady / Average
+STU-0334,High Achievers
+STU-0335,Steady / Average
+STU-0336,At-Risk Struggling
+STU-0337,Disengaged High-Scorers
+STU-0338,At-Risk Struggling
+STU-0339,Steady / Average
+STU-0340,Steady / Average
+STU-0341,Steady / Average
+STU-0342,Disengaged High-Scorers
+STU-0343,Steady / Average
+STU-0344,Steady / Average
+STU-0345,Steady / Average
+STU-0346,High Achievers
+STU-0347,Steady / Average
+STU-0348,Steady / Average
+STU-0349,Steady / Average
+STU-0350,At-Risk Struggling
+STU-0351,At-Risk Struggling
+STU-0352,Disengaged High-Scorers
+STU-0353,Steady / Average
+STU-0354,At-Risk Struggling
+STU-0355,Disengaged High-Scorers
+STU-0356,At-Risk Struggling
+STU-0357,At-Risk Struggling
+STU-0358,High Achievers
+STU-0359,At-Risk Struggling
+STU-0360,High Achievers
+STU-0361,Steady / Average
+STU-0362,At-Risk Struggling
+STU-0363,At-Risk Struggling
+STU-0364,Disengaged High-Scorers
+STU-0365,High Achievers
+STU-0366,High Achievers
+STU-0367,Steady / Average
+STU-0368,High Achievers
+STU-0369,High Achievers
+STU-0370,At-Risk Struggling
+STU-0371,Steady / Average
+STU-0372,High Achievers
+STU-0373,Steady / Average
+STU-0374,Steady / Average
+STU-0375,At-Risk Struggling
+STU-0376,Disengaged High-Scorers
+STU-0377,At-Risk Struggling
+STU-0378,High Achievers
+STU-0379,High Achievers
+STU-0380,High Achievers
+STU-0381,High Achievers
+STU-0382,Steady / Average
+STU-0383,Disengaged High-Scorers
+STU-0384,Disengaged High-Scorers
+STU-0385,At-Risk Struggling
+STU-0386,Steady / Average
+STU-0387,High Achievers
+STU-0388,At-Risk Struggling
+STU-0389,At-Risk Struggling
+STU-0390,Steady / Average
+STU-0391,Disengaged High-Scorers
+STU-0392,High Achievers
+STU-0393,At-Risk Struggling
+STU-0394,At-Risk Struggling
+STU-0395,Steady / Average
+STU-0396,High Achievers
+STU-0397,Steady / Average
+STU-0398,Steady / Average
+STU-0399,Steady / Average
+STU-0400,High Achievers
+STU-0401,Steady / Average
+STU-0402,Steady / Average
+STU-0403,Steady / Average
+STU-0404,At-Risk Struggling
+STU-0405,Steady / Average
+STU-0406,High Achievers
+STU-0407,Disengaged High-Scorers
+STU-0408,Disengaged High-Scorers
+STU-0409,Disengaged High-Scorers
+STU-0410,Steady / Average
+STU-0411,At-Risk Struggling
+STU-0412,At-Risk Struggling
+STU-0413,Disengaged High-Scorers
+STU-0414,Disengaged High-Scorers
+STU-0415,High Achievers
+STU-0416,Steady / Average
+STU-0417,Steady / Average
+STU-0418,High Achievers
+STU-0419,At-Risk Struggling
+STU-0420,Steady / Average
+STU-0421,Steady / Average
+STU-0422,At-Risk Struggling
+STU-0423,Steady / Average
+STU-0424,Steady / Average
+STU-0425,Disengaged High-Scorers
+STU-0426,Disengaged High-Scorers
+STU-0427,Disengaged High-Scorers
+STU-0428,High Achievers
+STU-0429,High Achievers
+STU-0430,Steady / Average
+STU-0431,At-Risk Struggling
+STU-0432,Disengaged High-Scorers
+STU-0433,Steady / Average
+STU-0434,Disengaged High-Scorers
+STU-0435,Steady / Average
+STU-0436,Steady / Average
+STU-0437,At-Risk Struggling
+STU-0438,Steady / Average
+STU-0439,Steady / Average
+STU-0440,Steady / Average
+STU-0441,Disengaged High-Scorers
+STU-0442,At-Risk Struggling
+STU-0443,At-Risk Struggling
+STU-0444,Steady / Average
+STU-0445,Disengaged High-Scorers
+STU-0446,At-Risk Struggling
+STU-0447,Steady / Average
+STU-0448,Disengaged High-Scorers
+STU-0449,Steady / Average
+STU-0450,High Achievers
+STU-0451,Disengaged High-Scorers
+STU-0452,Steady / Average
+STU-0453,At-Risk Struggling
+STU-0454,High Achievers
+STU-0455,Steady / Average
+STU-0456,High Achievers
+STU-0457,Disengaged High-Scorers
+STU-0458,Disengaged High-Scorers
+STU-0459,High Achievers
+STU-0460,High Achievers
+STU-0461,Steady / Average
+STU-0462,At-Risk Struggling
+STU-0463,Steady / Average
+STU-0464,Steady / Average
+STU-0465,High Achievers
+STU-0466,Steady / Average
+STU-0467,Disengaged High-Scorers
+STU-0468,Steady / Average
+STU-0469,High Achievers
+STU-0470,At-Risk Struggling
+STU-0471,Steady / Average
+STU-0472,Steady / Average
+STU-0473,Steady / Average
+STU-0474,At-Risk Struggling
+STU-0475,Disengaged High-Scorers
+STU-0476,Steady / Average
+STU-0477,High Achievers
+STU-0478,Steady / Average
+STU-0479,At-Risk Struggling
+STU-0480,Steady / Average
+STU-0481,High Achievers
+STU-0482,Steady / Average
+STU-0483,High Achievers
+STU-0484,Steady / Average
+STU-0485,Disengaged High-Scorers
+STU-0486,At-Risk Struggling
+STU-0487,High Achievers
+STU-0488,Steady / Average
+STU-0489,Steady / Average
+STU-0490,At-Risk Struggling
+STU-0491,Steady / Average
+STU-0492,High Achievers
+STU-0493,High Achievers
+STU-0494,High Achievers
+STU-0495,Steady / Average
+STU-0496,At-Risk Struggling
+STU-0497,Disengaged High-Scorers
+STU-0498,Steady / Average
+STU-0499,Disengaged High-Scorers
+STU-0500,Disengaged High-Scorers

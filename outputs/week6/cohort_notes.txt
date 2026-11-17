@@ -1,0 +1,11 @@
+k=2: silhouette = 0.268
+k=3: silhouette = 0.257
+k=4: silhouette = 0.256
+k=5: silhouette = 0.243
+k=6: silhouette = 0.232
+Silhouette scores are low and similar for every k, so the groups overlap. We use k=4 because it gives four easy-to-explain tiers.
+Cohort heatmap range: 41% to 74% (small cells have n under 30, read with care)
+Completion rate by course number (all cohorts): #1: 57%, #2: 61%, #3: 53%, #4: 57%, #5: 62%
+Not-completed courses: median last activity at day 22, latest at day 45; 30% stop within 14 days, 67% within 30 days.
+Completed courses: median active span 33 days; only 16% finish within 14 days.
+Monthly completion rate ranged from 50% to 73%.

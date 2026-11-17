@@ -1,0 +1,5 @@
+segment,students,avg_completion_pct,avg_quiz_score,avg_hours_per_course,courses_per_student,at_risk_label_pct,share_of_students_pct
+High Achievers,147,92.9,65.1,25.9,3.1,2.7,29.4
+Steady / Average,179,80.8,63.2,21.0,5.5,20.7,35.8
+Disengaged High-Scorers,75,65.2,73.9,16.2,3.7,36.0,15.0
+At-Risk Struggling,99,61.9,50.4,14.8,3.4,73.7,19.8

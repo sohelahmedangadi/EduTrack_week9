@@ -1,0 +1,5 @@
+students: 500; at-risk (label=1): 141 (28.2%)
+majority-class baseline accuracy (always predict 'not at risk'): 71.8%
+Week 3 rule flag vs label: accuracy 82.2%, recall 57.4%
+train: 400 rows (28.2% at risk), test: 100 rows (28.0% at risk)
+FORWARD-LOOKING check (earlier courses -> last course not completed): accuracy 55.5% (baseline 56.0%), ROC AUC 0.541 (0.5 = coin flip)
