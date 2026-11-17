@@ -1,4 +1,4 @@
-# EduTrack Schools Network: Data Pipeline and Baseline Metrics (Week 3)
+# EduTrack Schools Network: Data Pipeline, Baselines and Deep-Dive Analysis (Weeks 3 and 6)
 
 A small, repeatable pipeline that turns three raw CSV files into clean, analysis-ready tables and a first set of baseline ("before") metrics.
 
@@ -16,7 +16,7 @@ These came out of the Week 1 data inventory and still apply:
 data/raw/          original CSV files (never edited)
 data/processed/    cleaned and joined tables created by the pipeline
 src/               the three pipeline scripts
-outputs/           baseline metric tables (CSV) and baseline_summary.md
+outputs/           Week 3 baseline tables; outputs/week6/ holds Week 6 tables and figures
 logs/              cleaning and join logs from the last run
 notebooks/         space for exploration notebooks
 run_all.sh         runs all three steps in order
@@ -33,7 +33,7 @@ python src/02_build_student_table.py
 python src/03_baseline_metrics.py
 ```
 
-Or run all steps at once with `./run_all.sh`. Run every command from the project root folder.
+Or run all six steps at once with `./run_all.sh`. Run every command from the project root folder.
 
 ## What each step does
 
@@ -42,6 +42,9 @@ Or run all steps at once with `./run_all.sh`. Run every command from the project
 | 1 | `src/01_clean_data.py` | Trims text, makes capitalisation consistent, converts dates to a standard format, converts Yes/No to 1/0, removes duplicates, blanks out impossible values, flags very high hours (kept, not removed). Keeps missing quiz scores as a signal. |
 | 2 | `src/02_build_student_table.py` | Joins interactions to students on `student_id`, logs orphans, flags enrollments that do not match any student, builds one row per student with features, and applies the at-risk rule. |
 | 3 | `src/03_baseline_metrics.py` | Calculates network-wide benchmarks and breakdowns by city, course, profile, and (separately) enrollment course. |
+| 4 | `src/04_train_at_risk_model.py` | Week 6: trains and validates the at-risk classifier (80/20 split plus repeated cross-validation). |
+| 5 | `src/05_segmentation_and_cohorts.py` | Week 6: K-Means student segments, cohort heatmap, drop-off curve, monthly trend. |
+| 6 | `src/06_statistical_tests.py` | Week 6: ANOVA, Kruskal-Wallis, chi-square, correlations and high vs low engagement tests. |
 
 ### Join logic
 
@@ -102,3 +105,37 @@ Full tables are in `outputs/baseline_summary.md`.
 - Obtain `school_id`, grade, subject and term data so the real school comparison can replace the city stand-in.
 - Get a manual at-risk list from teachers to test the 80% accuracy target.
 - Get a student ID mapping so enrollments can be joined.
+
+## Week 6 deep-dive results
+
+All outputs are in `outputs/week6/` (tables as CSV, charts in `figures/`). The written report is `reports/EduTrack_Week6_Deep_Dive_Report.docx`.
+
+**How "at-risk" is defined.** No manual at-risk list exists, so the label is a proxy: a student is at risk if they completed **fewer than half** of the courses they enrolled in (141 of 500 students, 28.2%). Columns that give the label away (completed, certificate_earned, completion_pct, rating, missing-quiz flag) are not used as model inputs. Replace the label with the teachers' own list when available.
+
+### Model (stratified 80/20 split, seed 42; repeated 5-fold CV)
+
+| Model | Accuracy | Precision | Recall | F1 | ROC AUC | CV accuracy |
+|---|---|---|---|---|---|---|
+| Logistic Regression | 81.0% | 69.6% | 57.1% | 62.7% | 0.84 | 81.7% ± 2.7 |
+| Logistic Regression (balanced) | 75.0% | 53.7% | 78.6% | 63.8% | 0.84 | 77.6% ± 3.1 |
+| Decision Tree (depth 3) | 74.0% | 52.4% | 78.6% | 62.9% | 0.80 | 73.9% ± 5.0 |
+| Random Forest | 76.0% | 59.1% | 46.4% | 52.0% | 0.82 | 80.7% ± 3.1 |
+
+Always predicting "not at risk" scores 71.8%. The standard logistic regression meets the 80% target on this proxy label; the balanced version finds more at-risk students but does not. Earlier-course behaviour does **not** predict the last course (AUC 0.54), so this is a current-status model, not an early-warning model.
+
+Top drivers: average hours per course (strongest), courses per student, longest single-course hours, total hours, average quiz score.
+
+### Segments (K-Means, k = 4)
+
+| Segment | Students | Labelled at risk |
+|---|---|---|
+| High Achievers | 147 | 2.7% |
+| Steady / Average | 179 | 20.7% |
+| Disengaged High-Scorers | 75 | 36.0% |
+| At-Risk Struggling | 99 | 73.7% |
+
+### Drop-off and statistics
+
+- Courses that are not completed go quiet at a median of day 22; about two thirds stop within 30 days.
+- Courses differ strongly in completion, hours and quiz score (all p < 0.001). Cities (school stand-in) show no reliable differences. Hours per course vs quiz score: Spearman rho = 0.15 (p < 0.001).
+- Grade cannot be tested: there is no grade column.
