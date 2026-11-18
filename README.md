@@ -9,6 +9,7 @@ These came out of the Week 1 data inventory and still apply:
 - **No `school_id`, grade, or subject columns exist in any file.** School and grade breakdowns cannot be built from this data. As a temporary stand-in, results are grouped by **`city`** (for school) and **`course_id`** (for subject). Please read these as placeholders, not real school results.
 - **`da_edtech_enrollments.csv` cannot be joined to students.** Its IDs look like `ST-01894`, student IDs look like `STU-0001`, and 0 of 497 rows match. It is cleaned and analysed on its own.
 - **The at-risk flag is an initial rule, not a validated model.** There is no manual at-risk list yet, so the 80% accuracy target cannot be measured. The flag rate is reported only.
+- **Student names and email addresses in this public copy are anonymized.** Names are replaced with student-ID labels and emails use the reserved `example.invalid` domain.
 
 ## Project structure
 
