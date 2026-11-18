@@ -1,4 +1,4 @@
-# EduTrack Schools Network: Data Pipeline, Baselines and Deep-Dive Analysis (Weeks 3 and 6)
+# EduTrack Schools Network: Data Pipeline, Baselines and Deep-Dive Analysis (Weeks 3 to 9)
 
 A small, repeatable pipeline that turns three raw CSV files into clean, analysis-ready tables and a first set of baseline ("before") metrics.
 
